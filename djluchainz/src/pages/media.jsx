@@ -1,9 +1,4 @@
 import Image from 'next/image'
-import b1 from '../../public/assets/media/bella1.JPG'
-import b2 from '../../public/assets/media/bella2.JPG'
-import b3 from '../../public/assets/media/bella3.JPG'
-import b4 from '../../public/assets/media/bella4.JPG'
-import b5 from '../../public/assets/media/bella5.JPG'
 import hall1 from '../../public/assets/media/hall1.JPG'
 import hall2 from '../../public/assets/media/hall2.JPG'
 import hall3 from '../../public/assets/media/hall3.JPG'
@@ -27,9 +22,9 @@ const Media = () => {
       <Navbar />
       <Mediasounds />
     <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 pt-8 p-20'>
-    {/* Bella */}
+    {/* Bella 
     <div className='self-center text-center bg-black '>
-      <Image className='border-4 border-black rounded-md ' src={b1} alt="/" />
+      <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />
     </div>
 
     <div className='self-center text-center bg-black'>
@@ -43,6 +38,7 @@ const Media = () => {
     <div className='self-center text-center'>
     <Image className='border-4 border-black rounded-md' src={b4} alt="/" />
     </div>
+    */}
     
     <div className='self-center text-center bg-black'>
     <Image className='border-4 border-black rounded-md' src={hall1} alt="/" />
