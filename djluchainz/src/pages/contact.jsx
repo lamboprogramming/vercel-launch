@@ -8,6 +8,8 @@ import Navbar from '../../components/Navbar'
 import Contactbanner from '../../components/Contactbanner'
 
 const Contact = () => {
+
+ 
   const [from_name, setFrom_Name] = useState('')
   const [from_email, setFrom_Email] = useState('')
   const [message, set_Message] = useState('')
@@ -32,6 +34,8 @@ const Contact = () => {
       console.log('Failed...', error.text)
     })
   }
+
+
   
     return (
       <>
