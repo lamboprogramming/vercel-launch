@@ -17,7 +17,7 @@ const Testimonials = () => {
             
               <div className="items-start -mx-3 md:flex">
                   <div className="px-3 md:w-1/3">
-                      <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
+                      <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={nlma} className="h-10" alt=""/>
@@ -27,10 +27,10 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids can nt get enough, they are always asking for more DJ Sensei! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids love you, they are always asking for more DJ Sensei! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
-                      <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
+                      <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={tck} alt=""/>
@@ -40,12 +40,12 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black "></span> DJ Finn is the best <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black "></span> DJ Finn is the best <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                   </div>
                   <div className="px-3 md:w-1/3">
-                      <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
+                      <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={iguana} alt=""/>
@@ -55,7 +55,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="italic font-bold leading-none text-l g mrfvfv-1 black"></span> I was supposed to leave hours ago but I knew every song you kept playing and I could not 😩 <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="text-lg italic font-bold leading-none text-black"></span> I was supposed to leave hours ago but I knew every song you kept playing and I could not 😩 <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                       <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
@@ -64,39 +64,39 @@ const Testimonials = () => {
                                   <Image src={hccs} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">HCCS Charter School</h6>
+                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">HCCS Charter School</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span> You and your brother play the perfect music, I can tell you have been doing this for awhile <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight text-black lg:text-lg "> You and your brother play the perfect music, I can tell you have been doing this for awhile !</p>
                           </div>
                       </div>
                   </div>
                   <div className="px-3 md:w-1/3">
-                      <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
+                      <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={suite} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">Suite 215</h6>
+                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">Suite 215</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span>Pleasure to have you, you are welcomed to come back anytime<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black"></span>Pleasure to have you, you are welcomed to come back anytime<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
-                      <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
+                      <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={sfc} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">St Francis College</h6>
+                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">St Francis College</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span>You really know how to get the crowd going - I see why they keep asking for you<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black"></span>You really know how to get the crowd going - I see why they keep asking for you<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                   </div>

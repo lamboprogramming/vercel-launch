@@ -6,6 +6,7 @@ import Social from '../../components/Social'
 import emailjs from '@emailjs/browser'
 import Navbar from '../../components/Navbar'
 import Contactbanner from '../../components/Contactbanner'
+import Testimonials from '../../components/Testimonials';
 
 const Contact = () => {
 
@@ -67,6 +68,7 @@ const Contact = () => {
       
           </div>
        </section>
+       <Testimonials />
       </div>
         {/* Social */}
       <div className=' lg:hidden'>

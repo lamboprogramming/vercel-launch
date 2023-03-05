@@ -58,24 +58,24 @@ const Navbar = () => {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-8 tracking-widest text-white md:flex md:space-x-6 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-xl md:bg-black md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent">
+                        <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-8 tracking-widest text-white md:flex md:space-x-6 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-xl md:bg-black md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent font-[Abel] text-lg ">
                             <Link href="/">
-                            <p className="py-2 hover:scale-125">HOME
+                            <p className="py-4 hover:scale-125">HOME
                             </p>
                             </Link>
                        
                             <Link href="/music">
-                            <p className="py-2 hover:scale-125">MUSIC
+                            <p className="py-4 hover:scale-125">MUSIC
                             </p>
                             </Link>
                             
                             <Link href="/media" >
-                            <p className="py-2 hover:scale-125">MEDIA
+                            <p className="py-4 hover:scale-125">MEDIA
                             </p>
                             </Link>
                             
                             <Link href="/contact">
-                            <p className="py-2 hover:scale-125">CONTACT
+                            <p className="py-4 hover:scale-125">CONTACT
                             </p>
                             </Link>
                         </ul>

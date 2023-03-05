@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="text-xl sm:flex sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0"> </Link> 
         
-            <Image src={logo} priority className="w-[130px] ml-3" alt="DJ Logo" />
+            <Image src={logo} priority className="w-[130px] ml-3 mb-5" alt="DJ Logo" />
             {/* text next to logo */}
             <span className="self-center mt-5 font-semibold text-md whitespace-nowrap dark:text-white"></span>
       
