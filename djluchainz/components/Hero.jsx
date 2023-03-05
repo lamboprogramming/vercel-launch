@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import bg from '../public/assets/hero/nighttime.jpg'
-import twin from '../public/assets/hero/twindj.png'
+import bg from '../public/images/nighttime.jpg'
+import twin from '../public/images/twindj.png'
 import Link from 'next/link'
-import Social from '../components/Social'
+import Social from './Social'
 
 const Heropage = () => {
     const backgroundImageStyle = {

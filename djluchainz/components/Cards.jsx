@@ -1,9 +1,9 @@
 
 import Image from 'next/image'
-import tems from '../public/assets/music/tems.png'
-import hiphop from '../public/assets/music/migos.png'
-import pop from '../public/assets/music/pop2.jpg'
-import spanish from '../public/assets/music/baabaa.jpg'
+import tems from '../public/images/tems.png'
+import hiphop from '../public/images/migos.png'
+import pop from '../public/images/pop2.jpg'
+import spanish from '../public/images/baabaa.jpg'
 import Link from 'next/link'
 
 

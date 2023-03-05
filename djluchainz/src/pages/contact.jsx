@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
-import twin from '../../public/assets/hero/twindj.png'
+import twin from '../../public/images/twindj.png'
 import Footer from '../../components/Footer'
 import Social from '../../components/Social'
 import emailjs from '@emailjs/browser'
@@ -58,10 +58,10 @@ const Contact = () => {
 
            {/* Biography */}
             <p className="p-4 mt-4 leading-10 tracking-wider text-white border-t-4 border-l-4 border-yellow-400 shadow-xl md:text-xl lg:text-2xl rounded-xl lg:m-20">
-                “Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dance and laughter !
+                Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dance and laughter !
             <br />
             <br />
-                Even after a decade on the turntables, I’m still just as passionate about my craft as ever and I'm excited to make excited moments with you.”  
+                Even after a decade on the turntables, I am still just as passionate about my craft as ever and I am excited to make excited moments with you. 
             </p>
            
       

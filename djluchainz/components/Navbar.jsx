@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from 'next/image'
-import logo from "../public/assets/logo1.png"
+import logo from "../public/images/logo1.png"
 import Link from 'next/link'
 
 

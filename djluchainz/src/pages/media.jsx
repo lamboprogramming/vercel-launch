@@ -1,16 +1,16 @@
 import Image from 'next/image'
-import hall1 from '../../public/assets/media/hall1.JPG'
-import hall2 from '../../public/assets/media/hall2.JPG'
-import hall3 from '../../public/assets/media/hall3.JPG'
-import hall4 from '../../public/assets/media/hall4.JPG'
-import hall5 from '../../public/assets/media/hall5.JPG'
-import hall6 from '../../public/assets/media/hall6.JPG'
-import hall7 from '../../public/assets/media/hall7.JPG'
-import hall8 from '../../public/assets/media/hall8.JPG'
-import hall9 from '../../public/assets/media/hall9.JPG'
-import hall10 from '../../public/assets/media/hall10.JPG'
-import hall11 from '../../public/assets/media/hall11.JPG'
-import hall12 from '../../public/assets/media/hall12.JPG'
+import hall1 from '../../public/images/hall10.jpg'
+import hall2 from '../../public/images/hall2.jpg'
+import hall3 from '../../public/images/hall3.jpg'
+import hall4 from '../../public/images/hall4.jpg'
+import hall5 from '../../public/images/hall5.jpg'
+import hall6 from '../../public/images/hall6.jpg'
+import hall7 from '../../public/images/hall7.jpg'
+import hall8 from '../../public/images/hall8.jpg'
+import hall9 from '../../public/images/hall9.jpg'
+import hall10 from '../../public/images/hall10.jpg'
+import hall11 from '../../public/images/hall11.jpg'
+import hall12 from '../../public/images/hall12.jpg'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Mediasounds from '../../components/Mediasounds'
@@ -41,7 +41,7 @@ const Media = () => {
     */}
     
     <div className='self-center text-center bg-black'>
-    <Image className='border-4 border-black rounded-md' src={hall1} alt="/" />
+    <Image className='border-4 border-black rounded-md' src={hall10} alt="/" />
     </div>
     
     <div className='self-center text-center bg-black'>

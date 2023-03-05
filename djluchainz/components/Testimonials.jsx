@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import nlma from '../public/assets/testimonials/nlma-web.png'
-import tck from '../public/assets/testimonials/tck.png'
-import iguana from '../public/assets/testimonials/iguana.png'
-import hccs from '../public/assets/testimonials/hccs.png'
-import sfc from '../public/assets/testimonials/sfc.png'
-import suite from '../public/assets/testimonials/msz.png'
+import nlma from '../public/images/nlma-web.png'
+import tck from '../public/images/tck.png'
+import iguana from '../public/images/iguana.png'
+import hccs from '../public/images/hccs.png'
+import sfc from '../public/images/sfc.png'
+import suite from '../public/images/msz.png'
 
 
 const Testimonials = () => {
@@ -27,7 +27,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black">"</span> The kids can't get enough, they're always asking for more DJ Sensei! <span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids can nt get enough, they are always asking for more DJ Sensei! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                       <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
@@ -40,7 +40,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black ">"</span> DJ Finn is the best <span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black "></span> DJ Finn is the best <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                   </div>
@@ -55,7 +55,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black">"</span> I was supposed to leave hours ago but I knew every song you kept playing and I couldn't 😩 <span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="italic font-bold leading-none text-l g mrfvfv-1 black"></span> I was supposed to leave hours ago but I knew every song you kept playing and I could not 😩 <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                       <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
@@ -68,7 +68,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black">"</span> You and your brother play the perfect music, I can tell you've been doing this for awhile <span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span> You and your brother play the perfect music, I can tell you have been doing this for awhile <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                   </div>
@@ -83,7 +83,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black">"</span>Pleasure to have you, you're welcomed anytime<span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span>Pleasure to have you, you are welcomed to come back anytime<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                       <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
@@ -96,7 +96,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black">"</span>You really know how to get the crowd going - I see why they keep asking for you<span className="ml-1 text-lg italic font-bold leading-none black">"</span></p>
+                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none black"></span>You really know how to get the crowd going - I see why they keep asking for you<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                   </div>
