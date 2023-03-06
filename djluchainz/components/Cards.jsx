@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 const Cards = () => {
   return (
-    <div className="max-w-full p-20 m-10 text-white md:p-10 md:m-5 h-min rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+    <div className="max-w-full m-10 text-white p-15 md:p-10 md:m-5 h-min rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
     <div className="grid md:grid-cols-2 gap-10  md:p-10 lg:grid-cols-4 font-[Abel] ">
 
     {/* Card #1 Carribean*/}

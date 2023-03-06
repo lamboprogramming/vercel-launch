@@ -17,6 +17,8 @@ const Testimonials = () => {
             
               <div className="items-start -mx-3 md:flex">
                   <div className="px-3 md:w-1/3">
+                  
+                    {/* Card */}
                       <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -27,9 +29,10 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids love you, they are always asking for more DJ Sensei! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-tight text-md lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids love you, they are always asking for more DJ Sensei!  <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
+                    {/* Card */}
                       <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -40,10 +43,11 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black "></span> DJ Finn is the best <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-8 text-md lg:text-lg">DJ Finn is the best. I forget that we are here working out because it feels like a party; I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
                           </div>
                       </div>
                   </div>
+                    {/* Card */}
                   <div className="px-3 md:w-1/3">
                       <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
@@ -55,24 +59,27 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="text-lg italic font-bold leading-none text-black"></span> I was supposed to leave hours ago but I knew every song you kept playing and I could not 😩 <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-8 text-md lg:text-lg "> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
                           </div>
                       </div>
+                      {/* Card */}
                       <div className="w-full p-5 mx-auto mb-6 font-light bg-white border border-gray-200 rounded-lg black">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
                                   <Image src={hccs} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">HCCS Charter School</h6>
+                                  <h6 className="font-bold tracking-wider text-black uppercase text-md ">HCCS Charter School</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight text-black lg:text-lg "> You and your brother play the perfect music, I can tell you have been doing this for awhile !</p>
+                              <p className="leading-8 text-black text-md lg:text-lg "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
                           </div>
                       </div>
                   </div>
+                  
                   <div className="px-3 md:w-1/3">
+                    {/* Card */}
                       <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -83,9 +90,10 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black"></span>Pleasure to have you, you are welcomed to come back anytime<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-tight text-md lg:text-lg ">Pleasure to have you, you are welcomed to come back anytime</p>
                           </div>
                       </div>
+                    {/* Card */}
                       <div className="w-full p-5 mx-auto mb-6 font-light text-black bg-white border border-gray-200 rounded-lg">
                           <div className="flex items-center w-full mb-4">
                               <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -96,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-sm leading-tight lg:text-lg "><span className="mr-1 text-lg italic font-bold leading-none text-black"></span>You really know how to get the crowd going - I see why they keep asking for you<span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-tight text-md lg:text-lg ">You kill it everytime and you know we appreciate you.</p>
                           </div>
                       </div>
                   </div>

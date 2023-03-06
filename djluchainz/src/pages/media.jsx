@@ -15,18 +15,24 @@ import b5 from '../../public/images/bella5.jpg'
 import b2 from '../../public/images/bella2.jpg'
 import b3 from '../../public/images/bella3.jpg'
 import b4 from '../../public/images/bella4.jpg'
-import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Mediasounds from '../../components/Mediasounds'
+import Navbar from 'components/Navbar'
 
 
 const Media = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+    {/* Components */}
       <Navbar />
-      <video src='/videos/luchainz.mp4' controls autoPlay />
       <Mediasounds />
-    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 pt-8 p-5'>
+      
+      {/* Video */}
+      <div className='m-2 md:flex md:justify-center'>
+        <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
+      </div>
+      
+    <div className=' font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 pt-8 p-5 self-center justify-center mr-2 ml-2'>
      
     <div className='self-center text-center bg-black '>
       <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />

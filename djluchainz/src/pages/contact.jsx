@@ -43,42 +43,12 @@ const Contact = () => {
       <Contactbanner />
   <div className="grid grid-cols-1 bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel]">
   
-  {/* Col 1 Bio & Social*/}
-  <div className='p-4 lg:p-0'>
-      <div className="container px-6 mx-auto my-8 md:my-24">
-
-        <section className="mb-20 text-center md:mb-32">
-          {/* Bio */}
-          <div className="self-center font-[Abel]">
-
-          {/* Twin photo */}
-            <div className="grid justify-center">
-              <Image className="hidden max-w-sm rounded-md lg:block max-h-[98%] " priority src={twin} alt="/" />
-            </div>
-
-           {/* Biography */}
-            <p className="p-4 mt-4 leading-10 tracking-wider text-white border-t-4 border-l-4 border-yellow-400 shadow-xl md:text-xl lg:text-2xl rounded-xl lg:m-20">
-                Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dance and laughter !
-            <br />
-            <br />
-                Even after a decade on the turntables, I am still just as passionate about my craft as ever and I am excited to make excited moments with you. 
-            </p>
-           
-      
-          </div>
-       </section>
-       <Testimonials />
-      </div>
-      
-  </div>
-
-
 
   {/* Col 2 contact form */}
   <div className="container px-8 mx-auto rounded-xl">
   <section className="mb-6 text-center text-white ">
-    <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl border-b-yellow-400 border-r-yellow-400 border-r-4 border-b-4 rounded-3xl  font-[Abel] ">
-      <h2 className="mb-12 text-lg tracking-widest md:text-2xl ">CONTACT</h2>
+    <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl  font-[Abel] ">
+      <h2 className="mb-1 tracking-widest text-left 12 text-md md:text-2xl ">Tell us alittle about your event...</h2>
       <div id="contact" action="" method="post">
         <div className="mb-2 form-group">
           <input type="text" className="form-control block
@@ -137,14 +107,22 @@ const Contact = () => {
           " id="area" rows="3" placeholder="Message" onChange={(event) => (set_Message(event.target.value))}></textarea>
         </div>
  
-        <button onClick={submitInfo} type="submit" className="lg:w-44 px-4 py-[.7%] text-xl md:text-2xl font-bold text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1 hover:rounded-3xl duration-500 nav-links tracking-widest mt-12 mb-4 font-[Abel] ">SEND</button>
+        <button onClick={submitInfo} type="submit" className="lg:w-44  px-8 py-[.6%]  text-3xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-serif      ">SEND</button>
+
+
+       
+
+        
       </div>
     </div>
   </section>
   </div>
 
+  {/* Testimonials */}
+  <Testimonials />
+
   {/* policy */}
-  <h3 className='p-4 text-sm leading-8 tracking-wider text-center text-white md:text-lg'>
+  <h3 className='p-4 text-lg leading-8 tracking-wider text-center text-white md:text-lg'>
   Questions regarding rates or collaboration email
   djluchainz@gmail.com or use the form above and our team will get back to shortly.
 </h3>
