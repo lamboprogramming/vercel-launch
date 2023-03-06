@@ -11,7 +11,7 @@ const Heropage = () => {
       }
   return (
         <div className=" min-h-fit hero" style={backgroundImageStyle}> 
-            <div className="flex-col hero-content lg:flex-row-reverse">
+            <div className="flex-col lg:block hero-content lg:flex-row-reverse">
                 <Image src={twin} className="max-w-sm shadow-3xl rounded-xl lg:hidden" alt="#"/>
                 <div className="mt-4 text-center">
  
@@ -19,20 +19,18 @@ const Heropage = () => {
 
               {/* Contact Button */}
               <Link href="/contact">
-              <button className="lg:w-44 px-4 py-[.5%] md:text-2xl font-bold text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-30 font-[Abel]">CONTACT
+              <button className="lg:w-44 px-4 py-[1%] text-2xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-30 ">CONTACT
               </button>
          </Link> 
-
-                    <p className="py-6 text-xl italic font-semibold leading-10 tracking-widest text-white uppercase shadow-md md:text-2xl lg:text-3xl md:mt-12 font-[Abel] p-4 lg:text-yellow-300  backdrop-blur-md"> Weddings, Baby Showers, Birthdays, Game Night, Corporate Events, Karaoke, Silent Parties, Sport Events, Holidays, Collaborations & more </p>
-
-              
-
                 </div>  
+
+                <div className='grid grid-cols-1'>
+                <p className="py-6 text-xl italic font-semibold leading-10 tracking-widest text-white uppercase shadow-md md:text-2xl lg:text-3xl md:mt-12 font-[Abel] p-2 lg:text-yellow-300 text-center "> Weddings, Baby Showers, Birthdays, Gaming, Corporate, Karaoke, Silent Parties, Sport Events, Holidays, Collaborations & more </p>
                 
             </div>
-            <div>
                 
-                </div>
+            </div>
+          
             
       </div>
       

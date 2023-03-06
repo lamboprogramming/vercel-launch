@@ -11,6 +11,10 @@ import hall9 from '../../public/images/hall9.jpg'
 import hall10 from '../../public/images/hall10.jpg'
 import hall11 from '../../public/images/hall11.jpg'
 import hall12 from '../../public/images/hall12.jpg'
+import b5 from '../../public/images/bella5.jpg'
+import b2 from '../../public/images/bella2.jpg'
+import b3 from '../../public/images/bella3.jpg'
+import b4 from '../../public/images/bella4.jpg'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Mediasounds from '../../components/Mediasounds'
@@ -21,8 +25,9 @@ const Media = () => {
     <div>
       <Navbar />
       <Mediasounds />
-    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 pt-8 p-20'>
-    {/* Bella 
+      <video src='/videos/luchainz.mp4' controls />
+    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 pt-8 p-5'>
+     
     <div className='self-center text-center bg-black '>
       <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />
     </div>
@@ -38,7 +43,7 @@ const Media = () => {
     <div className='self-center text-center'>
     <Image className='border-4 border-black rounded-md' src={b4} alt="/" />
     </div>
-    */}
+    
     
     <div className='self-center text-center bg-black'>
     <Image className='border-4 border-black rounded-md' src={hall10} alt="/" />
