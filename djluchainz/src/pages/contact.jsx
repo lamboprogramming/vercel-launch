@@ -47,10 +47,11 @@ const Contact = () => {
   {/* Col 2 contact form */}
   <div className="container px-8 mx-auto rounded-xl">
   <section className="mb-6 text-center text-white ">
-    <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl  font-[Abel] ">
-      <h2 className="mb-1 tracking-widest text-left 12 text-md md:text-2xl ">Tell us alittle about your event...</h2>
+    <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl ">
+      <h2 className="mb-4 tracking-widest text-left 12 text-md md:text-2xl font-[Open-sans]">Tell us alittle about your event...</h2>
+      {/* Form Details Start */}
       <div id="contact" action="" method="post">
-        <div className="mb-2 form-group">
+        <div className="mb-6 form-group">
           <input type="text" className="form-control block
             w-full
             px-3
@@ -70,20 +71,7 @@ const Contact = () => {
             />
         </div>
         <div className="mb-6 form-group">
-          <input type="email" className="form-control block
-            w-full
-            px-3
-            py-1.5
-            text-base
-            font-normal
-            text-gray-700
-            bg-white bg-clip-padding
-            border border-solid border-gray-300
-            rounded
-            transition
-            ease-in-out
-            m-0
-            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+          <input type="email" className="block w-full px-3 py-2 m-0 text-base font-normal text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
             placeholder="Email address"
             onChange={(event) => (setFrom_Email(event.target.value))} />
         </div>
@@ -107,13 +95,14 @@ const Contact = () => {
           " id="area" rows="3" placeholder="Message" onChange={(event) => (set_Message(event.target.value))}></textarea>
         </div>
  
-        <button onClick={submitInfo} type="submit" className="lg:w-44  px-8 py-[.6%]  text-3xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-serif      ">SEND</button>
+        <button onClick={submitInfo} type="submit" className=" px-24 py-[.6%]   text-2xl md:text-3xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-[Open-sans]     ">Submit</button>
 
 
        
 
         
       </div>
+      {/* Form Details End */}
     </div>
   </section>
   </div>

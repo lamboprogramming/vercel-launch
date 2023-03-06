@@ -25,11 +25,11 @@ const Testimonials = () => {
                                   <Image src={nlma} className="h-10" alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">Next Level Martial Arts</h6>
+                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">Next Level Martial Arts</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-tight text-md lg:text-lg"><span className="mr-1 text-lg italic font-bold leading-none black"></span> The kids love you, they are always asking for more DJ Sensei!  <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-lg leading-tight text-md"><span className="mr-1 text-lg italic font-bold leading-none black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                     {/* Card */}
@@ -39,11 +39,11 @@ const Testimonials = () => {
                                   <Image src={tck} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">TCK Mixed Martial Arts</h6>
+                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">TCK Mixed Martial Arts</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md lg:text-lg">DJ Finn is the best. I forget that we are here working out because it feels like a party; I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
+                              <p className="text-lg leading-8">DJ Finn is the best. I forget that we are here working out because it feels like a party; I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
                           </div>
                       </div>
                   </div>
@@ -55,11 +55,11 @@ const Testimonials = () => {
                                   <Image src={iguana} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider uppercase black ">Iguana Lounge NYC</h6>
+                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">Iguana Lounge NYC</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md lg:text-lg "> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
+                              <p className="text-lg leading-8 text-md "> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
                           </div>
                       </div>
                       {/* Card */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-black text-md lg:text-lg "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
+                              <p className="text-lg leading-8 text-black text-md "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
                           </div>
                       </div>
                   </div>
@@ -86,11 +86,11 @@ const Testimonials = () => {
                                   <Image src={suite} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">Suite 215</h6>
+                                  <h6 className="text-xl font-bold tracking-wider text-black uppercase ">Suite 215</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-tight text-md lg:text-lg ">Pleasure to have you, you are welcomed to come back anytime</p>
+                              <p className="text-lg leading-tight text-md ">Pleasure to have you, you are welcomed to come back anytime</p>
                           </div>
                       </div>
                     {/* Card */}
@@ -100,11 +100,11 @@ const Testimonials = () => {
                                   <Image src={sfc} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-sm font-bold tracking-wider text-black uppercase ">St Francis College</h6>
+                                  <h6 className="text-xl font-bold tracking-wider text-black uppercase ">St Francis College</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-tight text-md lg:text-lg ">You kill it everytime and you know we appreciate you.</p>
+                              <p className="text-lg leading-tight text-md ">You kill it every time and you know we appreciate you.</p>
                           </div>
                       </div>
                   </div>

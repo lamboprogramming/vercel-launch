@@ -24,10 +24,7 @@ const Heropage = () => {
          </Link> 
                 </div>  
 
-                <div className='grid grid-cols-1'>
-                <p className="py-6 text-xl italic font-semibold leading-10 tracking-widest text-white uppercase shadow-md md:text-2xl lg:text-3xl md:mt-12 font-[Abel] p-2 lg:text-yellow-300 text-center "> Weddings, Baby Showers, Birthdays, Gaming, Corporate, Karaoke, Silent Parties, Sport Events, Holidays, Collaborations & more </p>
                 
-            </div>
                 
             </div>
           
