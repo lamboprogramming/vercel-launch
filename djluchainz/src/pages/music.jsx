@@ -13,6 +13,11 @@ const Music = () => {
       <div className=" bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
       <Musicbanner  />
       <Cards />
+      
+      <div>
+        
+      </div>
+      
       <Footer />
   </div>
     </div>

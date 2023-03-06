@@ -24,8 +24,8 @@ const Media = () => {
   return (
     <div>
       <Navbar />
-      <Mediasounds />
       <video src='/videos/luchainz.mp4' controls />
+      <Mediasounds />
     <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 pt-8 p-5'>
      
     <div className='self-center text-center bg-black '>

@@ -20,12 +20,12 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold ">
         {/* BUTTON TO CARRIBEAN MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="text-white lg:w-36 px-6 py-2 text-sm font-bold border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hover:border-white ">CARIBBEAN</button>
+        <button className="text-white lg:w-36 px-6 py-2 text-sm font-bold border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hover:border-white hidden md:block ">CARIBBEAN</button>
         </Link>
         </div>
       </div>
       {/* HASHTAGS TO CARRBIBEAN MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-4 ">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-4 text-lg ">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#afrobeats</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#soca</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#kompa</span>
@@ -43,12 +43,12 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* LINK TO SPANISH MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest ">ESPANOL</button>
+        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">ESPANOL</button>
         </Link>
         </div> 
       </div>
       {/* HASHTAGS TO SPANISH MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-[Abel]">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-[Abel]text-lg ">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#reggateton</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#denbow</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#bachata</span>
@@ -66,12 +66,12 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* BUTTON TO HIPHOP MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest ">HIP HOP</button>
+        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">HIP HOP</button>
         </Link>
         </div>
       </div>
     {/* HASHTAGS TO HIPHOP MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 text-lg ">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#trap</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#r&b</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#soul</span>
@@ -89,12 +89,12 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* BUTTON TO POP MUSIC PAGE*/}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest ">HOUSE</button>
+        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">HOUSE</button>
         </Link>
         </div>
       </div>
       {/* HASHTAGS TO POP MUSIC PAGE*/}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 text-lg">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold text-white rounded-full text-md">#rock</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#country</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#house</span>
