@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Image from 'next/image'
 import twin from '../../public/images/twindj.png'
 import Footer from '../../components/Footer'
-import Social from '../../components/Social'
 import emailjs from '@emailjs/browser'
 import Navbar from '../../components/Navbar'
 import Contactbanner from '../../components/Contactbanner'
@@ -70,10 +69,7 @@ const Contact = () => {
        </section>
        <Testimonials />
       </div>
-        {/* Social */}
-      <div className=' lg:hidden'>
-      <Social />
-      </div>
+      
   </div>
 
 
