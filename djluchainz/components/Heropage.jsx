@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import bg from '../public/images/nighttime.jpg'
 import twin from '../public/images/twindj.png'
 import Link from 'next/link'
 import Social from './Social'
@@ -7,7 +6,7 @@ import Social from './Social'
 
 const Heropage = () => {
     const backgroundImageStyle = {
-        backgroundImage: `url(${bg.src})`,
+        backgroundImage: `url(${bgImage.src})`,
         backgroundSize: "cover",
       }
 
