@@ -17,7 +17,7 @@ const Heropage = () => {
     
   return (
     
-    <div className="relative grid h-screen grid-cols-1 hero"> 
+    <div className="relative grid h-screen grid-cols-1 hero" style={backgroundImageStyle}> 
     <Image
         src={bgImage.src}
         alt={bgImage.alt}
