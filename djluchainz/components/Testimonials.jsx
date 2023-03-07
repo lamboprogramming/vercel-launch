@@ -9,7 +9,7 @@ import suite from '../public/images/msz.png'
 
 const Testimonials = () => {
     return (
-      <div className='bg-gray-900'>
+      <div className='w-full bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500'>
       
       {/* Testimonials Section */}
       <div className="w-full px-5 py-12 border-t border-b border-gray-200 black md:py-20">
@@ -29,7 +29,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-tight text-md"><span className="mr-1 text-lg italic font-bold leading-none black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-lg leading-8 text-md"><span className="mr-1 text-lg italic font-bold leading-none black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                     {/* Card */}
@@ -90,7 +90,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-tight text-md ">Pleasure to have you, you are welcomed to come back anytime</p>
+                              <p className="text-lg leading-8 text-md ">Pleasure to have you, you are welcomed to come back anytime</p>
                           </div>
                       </div>
                     {/* Card */}
@@ -104,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-tight text-md ">You kill it every time and you know we appreciate you.</p>
+                              <p className="text-lg leading-8 text-md ">You kill it every time and you know we appreciate you.</p>
                           </div>
                       </div>
                   </div>

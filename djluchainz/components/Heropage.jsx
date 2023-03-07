@@ -58,27 +58,27 @@ const Heropage = () => {
      <div className='grid grid-cols-1 pr-8 tracking-widest md:gap-3 md:grid-cols-4 rounded-2xl'>
      {/* Col 1 */}
      <div className="w-full h-30 pt-1 m-4 text-center bg-[#feeeac]">
-       <p className=' text-[48px] font-[900] text-black'>5.4K</p>
-       <p className='text-[24px] font-[500] text-black font-sans p-1'>Bookings </p>
+       <p className=' text-[48px] font-[900] text-black'>Over 2,000</p>
+       <p className='text-[24px] font-[500] text-black font-sans p-1'>Events Done </p>
      </div>
  
  
      {/* Col 2 */}
      <div className="w-full h-30 pt-1 m-4 text-center bg-[#a4add5]">
-     <p className='text-[48px] font-[900] text-black '>3.5K</p>
-     <p className='text-[24px] font-[500] text-black font-sans p-1'>Clients</p>
+     <p className='text-[48px] font-[900] text-black '>More than 500</p>
+     <p className='text-[24px] font-[500] text-black font-sans p-1'>Satisfied Clients</p>
    </div>
      {/* Col 3 */}
      <div className="w-full h-30 pt-1 m-4 text-center bg-[#A3B9A6]">
-       <p className='text-[48px] font-[900] text-black '>20</p>
-       <p className='text-[24px] font-[500] text-black font-sans p-1'>Countries Worldwide</p>
+       <p className='text-[48px] font-[900] text-black '>Over a Decade</p>
+       <p className='text-[24px] font-[500] text-black font-sans p-1'>Of Experience</p>
      </div>
      
      {/* Col 4 */}
      <div className="w-full h-30 pt-1 m-4 text-center bg-[#ffffff]">
-     <p className='text-[48px] font-[900] text-black '>1</p>
-     <p className='text-[24px] font-[500] text-black font-sans p-1'>Mission </p>
-   </div>
+     <p className='text-[48px] font-[900] text-black '>5+ Djs</p>
+     <p className='text-[24px] font-[500] text-black font-sans p-1'>Mentored</p>
+   </div> 
     
      
      </div>

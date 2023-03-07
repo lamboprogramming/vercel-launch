@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import dassa from '../../public/images/dassa3.jpeg'
 import Navbar from '../../components/Navbar'
+import Testimonials from '../../components/Testimonials'
 
 const about = () => {
   return (
@@ -22,7 +23,7 @@ const about = () => {
         </div>
 
         <div className='grid grid-cols-1'>
-                <h1 className="w-full font-sans text-3xl font-bold leading-10 tracking-wider text-center text-black uppercase shadow-md "> Restuants, Bars, Clubs, Lounges, Corporate, Schools, Collaborations & more </h1>
+                <h1 className="w-full font-sans text-3xl font-bold leading-10 tracking-wider text-center text-black shadow-md "> Restuants, Bars, Clubs, Lounges, Corporate, Schools, Collaborations & more </h1>
         </div>
         <div className='grid grid-cols-1 mt-4 md:grid-cols-5'>
           <div className='md:col-span-5 md:col-start-2'>
@@ -48,6 +49,8 @@ const about = () => {
    </section>
    
   </div>
+  {/* Testimonials */}
+  <Testimonials />
   
 </div>
 

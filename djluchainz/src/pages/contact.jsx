@@ -5,7 +5,7 @@ import Footer from '../../components/Footer'
 import emailjs from '@emailjs/browser'
 import Navbar from '../../components/Navbar'
 import Contactbanner from '../../components/Contactbanner'
-import Testimonials from '../../components/Testimonials';
+
 
 const Contact = () => {
 
@@ -95,7 +95,7 @@ const Contact = () => {
           " id="area" rows="3" placeholder="Message" onChange={(event) => (set_Message(event.target.value))}></textarea>
         </div>
  
-        <button onClick={submitInfo} type="submit" className=" px-6 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold max-w-[300px] self-center     ">Submit</button>
+        <button onClick={submitInfo} type="submit" className=" px-16 py-3  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold  self-center     ">Submit</button>
 
 
        
@@ -107,8 +107,7 @@ const Contact = () => {
   </section>
   </div>
 
-  {/* Testimonials */}
-  <Testimonials />
+  
 
   {/* policy */}
   <h3 className='p-4 text-lg leading-8 tracking-wider text-center text-black md:text-lg font-[800]'>
