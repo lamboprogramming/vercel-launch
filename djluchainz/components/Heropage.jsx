@@ -19,7 +19,7 @@ const Heropage = () => {
   return (
     <>
     {/* Banner and Images */}
-    <div className="relative grid h-screen grid-cols-1 pb-10 hero" style={backgroundImageStyle}> 
+    <div className="relative grid h-full grid-cols-1 pb-10 hero" style={backgroundImageStyle}> 
       <Image
         src={bg}
         alt="/"
@@ -30,8 +30,8 @@ const Heropage = () => {
       <Image src={twin} className="relative grid w-full max-w-sm pb-20 hero-content md:mb-20 md:justify-center md:max-w-md lg:mt-20 mb:20" alt="#"/>
     </div>
     
-    {/* Contact Button */}      
-    <div className="flex-col w-full pb-10 mt-4 overflow-hidden text-center hero-content md:justify-center">
+    {/* Request Quote Button */}      
+    <div className="flex-col w-full pb-10 mt-4 overflow-hidden text-center hero-content md:justify-center lg:pl-10 lg:ml-10 lg:">
 
       
         <Link href="/contact">
@@ -43,8 +43,8 @@ const Heropage = () => {
     {/* Section 1 */}
     <div className="grid grid-cols-4 gap-4">
     {/* Grid 1 */}
-      <div className='grid col-span-2 col-start-1 p-4'>
-        <p className='text-black mb-6 font-bold  text-[24px] md:text-[40px]  tracking-wider '>Music is food for the soul and medicine for the spirit</p>
+      <div className='grid col-span-4 col-start-1 p-4 text-center'>
+        <p className='text-black mb-6 font-bold  text-[24px] md:text-[40px]  tracking-wider '>Choose Your Event. Get a Quote. Secure a Date.</p>
       </div>
       {/* Grid 2 */}
       <div className='hidden'>
@@ -86,11 +86,11 @@ const Heropage = () => {
      
 
     {/* Section 3 */}
-    <div className="grid grid-cols-4 grid-rows-3 pt-4">
+    <div className="grid grid-cols-4  pt-4">
     {/* Col 1 */}
-      <div className='col-span-4 col-start-1 md:col-start-2 md:col-span-4'>
-        <p className='text-[20px] md:text-[24px] text-black tracking-wider leading-10 mb-6 text-lg  p-6 m-2 '>
-        <span className='font-bold text-[44px]'>F</span>or over a Decade, <span className='font-bold'>DJ LuChainz</span> has been amplifying events, energizing audiences, and creating buzz all over the United States. Thousands of events and clients later, our incredible service will make you feel confident and at ease. This highly curated DJ delivers amazing event experiences - 100% guaranteed.
+      <div className='col-span-6 col-start-1 md:col-start-6 md:col-span-4 text-[Inria] text-left'>
+        <p className='text-[30px] font-[300] text-black tracking-wider leading-10 mb-6 p-6 m-2 '>
+        <span className='font-bold text-[44px]'>F</span>or over a Decade, <span className='font-bold'>DJ LuChainz</span> has been amplifying events, energizing audiences, and creating buzz all over the United States. Thousands of events and clients later, this highly curated DJ delivers  our incredible services will make you feel confident in booking us. amazing event experiences - 100% guaranteed.
         </p>
       </div>
       
