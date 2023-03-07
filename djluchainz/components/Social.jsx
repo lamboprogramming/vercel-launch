@@ -3,7 +3,7 @@ import { GrInstagram } from 'react-icons/gr'
 
 const Social = () => {
   return (
-  <div className='flex items-center justify-between px-6 py-2 m-8 mt-4 md:justify-evenly md:m-28 rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] min-w-lg'>
+  <div className='flex items-center justify-between px-6 py-2 m-8 mt-4 md:justify-evenly md:m-8 rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] min-w-lg'>
        {/* SOUNDCLOUD */}
     <div>
     <a

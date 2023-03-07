@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Cards = () => {
   return (
     <div className="max-w-full m-10 text-white p-15 md:p-10 md:m-5 h-min rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
-    <div className="grid md:grid-cols-2 gap-10  md:p-10 lg:grid-cols-4 font-[Abel] ">
+    <div className="grid gap-10 font-sans md:grid-cols-2 md:p-10 lg:grid-cols-4 ">
 
     {/* Card #1 Carribean*/}
       <div className="overflow-hidden rounded-t-full shadow-2xl">
@@ -25,7 +25,7 @@ const Cards = () => {
         </div>
       </div>
       {/* HASHTAGS TO CARRBIBEAN MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-4 text-lg ">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-4 font-sans text-xl tracking-widest ">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#afrobeats</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#soca</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#kompa</span>
@@ -48,7 +48,7 @@ const Cards = () => {
         </div> 
       </div>
       {/* HASHTAGS TO SPANISH MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-[Abel]text-lg ">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-sans text-xl tracking-widest">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#reggateton</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#denbow</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#bachata</span>
@@ -71,7 +71,7 @@ const Cards = () => {
         </div>
       </div>
     {/* HASHTAGS TO HIPHOP MUSIC */}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 text-lg ">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-sans text-xl tracking-widest">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#trap</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#r&b</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#soul</span>
@@ -94,7 +94,7 @@ const Cards = () => {
         </div>
       </div>
       {/* HASHTAGS TO POP MUSIC PAGE*/}
-      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 text-lg">
+      <div className="flex flex-wrap items-center justify-center px-6 pt-1 pb-2 font-sans text-xl tracking-widest ">
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold text-white rounded-full text-md">#rock</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#country</span>
         <span className="inline-block px-3 py-1 mb-2 mr-2 font-semibold rounded-full text-gray-50 text-md">#house</span>

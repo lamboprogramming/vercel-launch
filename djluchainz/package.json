@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@fontsource/dosis": "^4.5.11",
     "@next/font": "^13.1.6",
     "daisyui": "^2.50.1",
     "next": "13.1.6",

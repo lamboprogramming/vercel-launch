@@ -6,7 +6,7 @@ import Social from "./Social";
 
 const HeroPage = () => {
   return (
-    <div className="bg-black ">
+    <div className="grid grid-cols-1 bg-black ">
         <Hero />
         <div className="hidden lg:block">
         <Social />

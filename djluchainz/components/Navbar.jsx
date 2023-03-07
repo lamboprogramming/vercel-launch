@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full bg-gray-900 shadow font-[Abel]">
+    <nav className="w-full bg-gray-900 shadow font-[Dosis]">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
         
@@ -59,33 +59,33 @@ const Navbar = () => {
         </div>
         <div>
             <div
-                className={`flex-1 text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 nav-links font-extrabold capitalize text-sm  ${
+                className={`flex-1 text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 nav-links capitalize text-sm  ${
                     navbar ? "block" : "hidden"
                 }`}
             >
-                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 tracking-widest text-white md:flex md:space-x-6 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-2xl md:bg-gray-900 md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent font-[Abel] text-lg ">
+                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 font-sans text-sm tracking-wide text-white md:flex md:space-x-10 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-2xl md:bg-gray-900 md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent ">
                     <Link href="/">
-                    <p className="py-4 hover:scale-125">Home
+                    <p className="py-2 hover:scale-150 ">HOME
                     </p>
                     </Link>
                
                     <Link href="/about">
-                    <p className="py-4 hover:scale-125">About
+                    <p className="py-3 hover:scale-150 ">ABOUT
                     </p>
                     </Link>
                     
                     <Link href="/music">
-                    <p className="py-4 hover:scale-125">Music
+                    <p className="py-3 hover:scale-150 ">MUSIC
                     </p>
                     </Link>
                     
                     <Link href="/media" >
-                    <p className="py-4 hover:scale-125">Gallery
+                    <p className="py-3 hover:scale-150 ">MEDIA
                     </p>
                     </Link>
                     
                     <Link href="/contact">
-                    <p className="py-4 hover:scale-125">contact
+                    <p className="py-3 hover:scale-150 ">BOOKING
                     </p>
                     </Link>
                 </ul>

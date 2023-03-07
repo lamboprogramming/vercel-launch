@@ -13,7 +13,7 @@ const Testimonials = () => {
       
       {/* Testimonials Section */}
       <div className="w-full px-5 py-12 border-t border-b border-gray-200 black bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 md:py-20">
-          <div className="w-full max-w-6xl mx-auto font-[Abel]">
+          <div className="w-full max-w-6xl mx-auto font-sans">
             
               <div className="items-start -mx-3 md:flex">
                   <div className="px-3 md:w-1/3">
@@ -69,11 +69,11 @@ const Testimonials = () => {
                                   <Image src={hccs} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="font-bold tracking-wider text-black uppercase text-md ">HCCS Charter School</h6>
+                                  <h1 className="text-lg font-bold tracking-wider text-black uppercase ">HCCS Charter School</h1>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-black text-md "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
+                              <p className="leading-8 text-black text-md xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
                           </div>
                       </div>
                   </div>
