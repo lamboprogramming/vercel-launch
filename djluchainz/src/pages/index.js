@@ -50,7 +50,7 @@ export default function Home() {
 
         {/* Contact Button */}
               <Link href="/contact">
-                  <button className="px-[5rem] py-[10%]  text-2xl  text-white   border-2 border-white rounded-md bg-gradient-to-r from-transparent to-indigo-900 hover:from-indigo-900 hover:to-fuchsia-900 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-sans md:min-w-[450px] min-w-[350px] w-full ">Request a Quote
+                  <button className="px-6 py-[10%]  text-2xl  text-white   border-2 border-white rounded-md bg-gradient-to-r from-transparent to-indigo-900 hover:from-indigo-900 hover:to-fuchsia-900 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-sans md:min-w-[450px] min-w-[350px] w-full ">Request a Quote
                   </button>
               </Link> 
           </div>     
