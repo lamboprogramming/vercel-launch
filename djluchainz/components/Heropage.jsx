@@ -59,7 +59,7 @@ const Heropage = () => {
       
       {/* Col 2 content here */}
       <div className='col-span-4 col-start-1 md:col-start-2 md:col-span-4'>
-      <p className='text-[20px] md:text-[24px] text-black tracking-wider leading-10 mb-6 text-lg  p-8 m-2 '>
+      <p className='text-[20px] md:text-[24px] text-black tracking-wider leading-10 mb-6 text-lg  p-6 m-2 '>
       <span className='font-bold text-[44px]'>F</span>or over a Decade, <span className='bg-indigo-200'>LuChainz</span> has been amplifying events, energizing audiences, and creating buzz all over the United States. Thousands of events and clients later, our incredible service will make you feel confident and at ease. This highly curated DJ delivers amazing event experiences - 100% guaranteed.
       </p>
 
@@ -73,23 +73,23 @@ const Heropage = () => {
     </div>
 
     {/* Section 3 grid cards */}
-    <div className='grid grid-cols-1 gap-3 pr-8 m-6 tracking-widest gap-white md:grid-cols-4 rounded-2xl'>
+    <div className='grid grid-cols-1 pr-8 tracking-widest md:gap-3 md:grid-cols-4 rounded-2xl'>
     {/* Col 1 */}
     <div className="w-full h-30 pt-1 m-4 text-center bg-[#feeeac]">
       <p className=' text-[48px] font-[900] text-black'>5.4K</p>
-      <p className='text-[24px] font-[500] text-black font-sans p-1'>Bookings</p>
+      <p className='text-[24px] font-[500] text-black font-sans p-1'>Bookings </p>
     </div>
 
 
     {/* Col 2 */}
-    <div className="w-full h-430 pt-1 m-4 text-center bg-[#a4add5]">
+    <div className="w-full h-30 pt-1 m-4 text-center bg-[#a4add5]">
     <p className='text-[48px] font-[900] text-black '>3.5K</p>
     <p className='text-[24px] font-[500] text-black font-sans p-1'>Clients</p>
   </div>
     {/* Col 3 */}
     <div className="w-full h-30 pt-1 m-4 text-center bg-[#A3B9A6]">
       <p className='text-[48px] font-[900] text-black '>20</p>
-      <p className='text-[24px] font-[500] text-black font-sans p-1'>Countries</p>
+      <p className='text-[24px] font-[500] text-black font-sans p-1'>Countries Worldwide</p>
     </div>
     
     {/* Col 4 */}
