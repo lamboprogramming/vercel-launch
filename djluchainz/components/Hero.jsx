@@ -10,12 +10,10 @@ const Heropage = () => {
         backgroundSize: "cover",
       }
   return (
-        <div className="fixed grid w-full h-screen grid-cols-1 hero " style={backgroundImageStyle}> 
-            <div className="flex-col lg:block hero-content lg:flex-row-reverse">
-                <Image src={twin} className="max-w-lg p-4 shadow-3xl rounded-xl lg:hidden" alt="#"/>
+        <div className="sticky grid w-full h-screen grid-cols-1 hero " style={backgroundImageStyle}> 
+            <div className="flex-col mb-[8rem] lg:block hero-content lg:flex-row-reverse">
+                <Image src={twin} className="max-w-md p-8 md:mx md:p-0" alt="#"/>
                 <div className="mt-4 text-center">
- 
-                    <h1 className="hidden mt-4 mb-4 font-sans text-5xl font-bold tracking-wider text-center shadow-2xl md:text-7xl lg:block ">DJ LUCHAINZ</h1>
 
               {/* Contact Button */}
               <Link href="/contact">
