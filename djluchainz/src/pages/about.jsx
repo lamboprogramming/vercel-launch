@@ -7,10 +7,10 @@ const about = () => {
   return (
     <>
     <Navbar />
-    <div>
+   
         {/* Col 1 Bio & Social*/}
   <div className='p-4 bg-white md:p-2'>
-  <div className="container px-6 mx-auto my-8 md:my-24">
+  <div className="container mx-auto my-8 md:my-24">
 
     <section className="mb-20 text-center md:mb-32">
       {/* Bio */}
@@ -22,7 +22,7 @@ const about = () => {
         </div>
 
         <div className='grid grid-cols-1'>
-                <h1 className="w-full text-xl italic leading-10 tracking-widest text-center text-black uppercase shadow-md "> Weddings, Baby Showers, Birthdays, Gaming, Corporate, Karaoke, Silent Parties, Sport Events, Holidays, Collaborations & more </h1>
+                <h1 className="w-full font-sans text-3xl font-bold leading-10 tracking-wider text-center text-black uppercase shadow-md "> Restuants, Bars, Clubs, Lounges, Corporate, Schools, Collaborations & more </h1>
         </div>
 
        {/* Biography */}
@@ -46,7 +46,7 @@ const about = () => {
   
 </div>
 
-    </div>
+    
     </>
   );
 }

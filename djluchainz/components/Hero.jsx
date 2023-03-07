@@ -9,25 +9,35 @@ const Heropage = () => {
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
       }
+
+    const bgImage = {
+        src: '/../public/images/nighttime.jpg',
+        alt: 'Background image'
+    };
+    
   return (
-        <div className="sticky grid w-full h-screen grid-cols-1 hero " style={backgroundImageStyle}> 
-            <div className="flex-col mb-[8rem] lg:block hero-content lg:flex-row-reverse">
-                <Image src={twin} className="max-w-md p-8 md:mx md:p-0" alt="#"/>
+    
+        <div className="grid-cols-1 gridh-auto hero"> 
+            <Image
+                src={bgImage.src}
+                alt={bgImage.alt}
+                fill
+                cover
+                quality={100}
+            />
+            <div className="flex-col h-screen lg:block hero-content lg:flex-row-reverse ">
+                    <Image src={twin} className="max-w-md p-8 md:mx md:p-0" alt="#"/>
                 <div className="mt-4 text-center">
 
               {/* Contact Button */}
-              <Link href="/contact">
-              <button className="px-[8rem] py-[3%]  text-2xl  text-white   border-2 border-white rounded-md bg-gradient-to-r from-transparent to-indigo-900 hover:from-indigo-900 hover:to-fuchsia-900 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-sans ">Request a Quote
-              </button>
-         </Link> 
-                </div>  
-
-                
-                
+                    <Link href="/contact">
+                        <button className="px-[5rem] py-[10%]  text-2xl  text-white   border-2 border-white rounded-md bg-gradient-to-r from-transparent to-indigo-900 hover:from-indigo-900 hover:to-fuchsia-900 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-sans md:min-w-[450px] min-w-[350px] w-full ">Request a Quote
+                        </button>
+                    </Link> 
+                </div>     
             </div>
-          
-            
-      </div>
+        </div>
+      
       
   );
 }
