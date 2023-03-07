@@ -10,7 +10,7 @@ const Heropage = () => {
         backgroundSize: "cover",
       }
   return (
-        <div className="grid w-full grid-cols-1 max-h-fit hero" style={backgroundImageStyle}> 
+        <div className="grid w-full h-screen grid-cols-1 hero" style={backgroundImageStyle}> 
             <div className="flex-col lg:block hero-content lg:flex-row-reverse">
                 <Image src={twin} className="max-w-sm shadow-3xl rounded-xl lg:hidden" alt="#"/>
                 <div className="mt-4 text-center">
@@ -19,7 +19,7 @@ const Heropage = () => {
 
               {/* Contact Button */}
               <Link href="/contact">
-              <button className="px-4 py-[2%]  text-2xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-[Dosis200] ">Request a Quote
+              <button className="px-[8rem] py-[3%]  text-2xl  text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-transparent to-indigo-900 hover:from-indigo-900 hover:to-fuchsia-900 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-sans ">Request a Quote
               </button>
          </Link> 
                 </div>  

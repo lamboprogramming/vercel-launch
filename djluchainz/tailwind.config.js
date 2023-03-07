@@ -10,7 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Dosis']
+      sans: ['Inter']
     },
     extend: {},
   },
