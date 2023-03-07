@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import twin from '../../public/images/twindj.png'
+import dassa from '../../public/images/dassa3.jpeg'
 import Navbar from '../../components/Navbar'
 
 const about = () => {
@@ -18,21 +18,26 @@ const about = () => {
 
       {/* Twin photo */}
         <div className="grid justify-center">
-          <Image className="hidden max-w-sm rounded-md lg:block max-h-[98%] " priority src={twin} alt="/" />
+       
         </div>
 
         <div className='grid grid-cols-1'>
                 <h1 className="w-full font-sans text-3xl font-bold leading-10 tracking-wider text-center text-black uppercase shadow-md "> Restuants, Bars, Clubs, Lounges, Corporate, Schools, Collaborations & more </h1>
         </div>
-
+        <div className='grid grid-cols-1 mt-4 md:grid-cols-5'>
+          <div className='md:col-span-5 md:col-start-2'>
+            <Image src={dassa} alt="/" className='shadow-2xl rounded-2xl'/>
+          </div>
+         
+        </div>
        {/* Biography */}
-       <div className="grid grid-cols-2">
-       
-       
-        <div className="p-4 mt-4 leading-10 tracking-wider text-black md:text-xl lg:text-2xl lg:m-20">
-            Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dance and laughter !
-       
-            Even after a decade on the turntables, I am still just as passionate about my craft as ever and I am excited to make excited moments with you. 
+       <div className="grid grid-cols-4">
+
+        <div className="p-4 mt-4 leading-10  tracking-wider text-black  lg:text-2xl lg:m-20 font-[200] col-start-1 col-span-4 text-left">
+        <p>Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dancing and laughter that makes me feel the energy.</p>
+            
+       <br/>
+           <p> Even after a decade on the turntables, I am still just as passionate about my craft as ever and I am excited to make excited moments with you. </p>
         </div>
 
 

@@ -9,10 +9,10 @@ import suite from '../public/images/msz.png'
 
 const Testimonials = () => {
     return (
-      <div>
+      <div className='bg-gray-900'>
       
       {/* Testimonials Section */}
-      <div className="w-full px-5 py-12 border-t border-b border-gray-200 black bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 md:py-20">
+      <div className="w-full px-5 py-12 border-t border-b border-gray-200 black md:py-20">
           <div className="w-full max-w-6xl mx-auto font-sans">
             
               <div className="items-start -mx-3 md:flex">
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-black text-md xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
+                              <p className="text-lg leading-8 text-black xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
                           </div>
                       </div>
                   </div>

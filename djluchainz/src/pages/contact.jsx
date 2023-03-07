@@ -41,14 +41,14 @@ const Contact = () => {
       <>
       <Navbar />
       <Contactbanner />
-  <div className="grid grid-cols-1 bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel]">
+  <div className="grid grid-cols-1 font-sans bg-white">
   
 
   {/* Col 2 contact form */}
   <div className="container px-8 mx-auto rounded-xl">
-  <section className="mb-6 text-center text-white ">
+  <section className="mb-6 text-center text-black ">
     <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl ">
-      <h2 className="mb-4 tracking-widest text-left 12 text-md md:text-2xl font-[Open-sans]">Tell us alittle about your event...</h2>
+      <h2 className="mb-4 font-sans tracking-widest text-left 12 text-md md:text-2xl">Tell us about your event...</h2>
       {/* Form Details Start */}
       <div id="contact" action="" method="post">
         <div className="mb-6 form-group">
@@ -95,7 +95,7 @@ const Contact = () => {
           " id="area" rows="3" placeholder="Message" onChange={(event) => (set_Message(event.target.value))}></textarea>
         </div>
  
-        <button onClick={submitInfo} type="submit" className=" px-24 py-[.6%]   text-2xl md:text-3xl italic text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-10 font-[Open-sans]     ">Submit</button>
+        <button onClick={submitInfo} type="submit" className=" px-6 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold max-w-[300px] self-center     ">Submit</button>
 
 
        
@@ -111,7 +111,7 @@ const Contact = () => {
   <Testimonials />
 
   {/* policy */}
-  <h3 className='p-4 text-lg leading-8 tracking-wider text-center text-white md:text-lg'>
+  <h3 className='p-4 text-lg leading-8 tracking-wider text-center text-black md:text-lg font-[800]'>
   Questions regarding rates or collaboration email
   djluchainz@gmail.com or use the form above and our team will get back to shortly.
 </h3>

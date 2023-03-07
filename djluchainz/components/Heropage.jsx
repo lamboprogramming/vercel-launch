@@ -35,7 +35,7 @@ const Heropage = () => {
 
       
         <Link href="/contact">
-            <button className="px-20 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold w-full  ">Request a Quote
+            <button className="px-20 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-sans font-semibold w-full  ">Request a Quote
             </button>
         </Link>  
     </div>
@@ -86,7 +86,7 @@ const Heropage = () => {
      
 
     {/* Section 3 */}
-    <div className="grid grid-cols-4  pt-4">
+    <div className="grid grid-cols-4 pt-4">
     {/* Col 1 */}
       <div className='col-span-6 col-start-1 md:col-start-6 md:col-span-4 text-[Inria] text-left'>
         <p className='text-[30px] font-[300] text-black tracking-wider leading-10 mb-6 p-6 m-2 '>
