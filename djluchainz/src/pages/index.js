@@ -17,13 +17,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   return (
-    
+   
     <div className="bg-slate-200">
-      <Navbar />
-      <div className="">
+        <Navbar />
         <Heropage />
-      </div>
-      <Footer />
+        <Footer />
     </div>
   )
 }

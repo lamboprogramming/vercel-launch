@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 ">
-    <footer className="items-center p-4 bg-black shadow dark:bg-gray-900">
+    <div>
+    <footer className="items-center p-4 bg-gray-900 shadow dark:bg-gray-900">
     <div className="text-xl sm:flex sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0"> </Link> 
         
