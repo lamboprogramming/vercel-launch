@@ -5,15 +5,17 @@ import Social from './Social'
 
 
 const Heropage = () => {
+
+  const bgImage = {
+    src: '/../public/images/nighttime.jpg',
+    alt: 'Background image'
+};
     const backgroundImageStyle = {
         backgroundImage: `url(${bgImage.src})`,
         backgroundSize: "cover",
       }
 
-    const bgImage = {
-        src: '/../public/images/nighttime.jpg',
-        alt: 'Background image'
-    };
+
     
   return (
     
