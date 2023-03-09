@@ -4,6 +4,10 @@ import dassa from '../../public/images/dassa3.jpeg'
 import Navbar from '../../components/Navbar'
 import Testimonials from '../../components/Testimonials'
 import Footer from 'components/Footer';
+import { FaSoundcloud, FaMixcloud }from 'react-icons/fa'
+import { GrInstagram } from 'react-icons/gr'
+
+
 
 const about = () => {
   return (
@@ -17,14 +21,43 @@ const about = () => {
       {/* Twin photo */}
       <div className='flex justify-center'>
       <div>
-        <Image src={dassa} alt="/" className='pt-4 pl-4 pr-4 rounded-full'/>
+        <Image src={dassa} alt="/" priority className='pt-4 pl-4 pr-4 rounded-full'/>
+
+        {/* Socials */}
+        <div className='hidden md:block'>
+        <div className='flex mt-8 space-x-10 justify-evenly '>
+        <div>
+        <a
+        href="https://soundcloud.com/djluchainz">
+        <FaSoundcloud className="p-2 mt-4 ml-5 text-5xl text-orange-400 transition duration-200 border-4 border-orange-500 border-solid rounded-full shadow-xl hover:scale-125 " />
+        </a>
+        <h3 className="mt-3 font-extrabold tracking-widest text-black text-md nav-links"></h3>
+        </div>
+     
+       {/* MIXCLOUD */}
+        <div>
+      <a href="https://www.mixcloud.com/">
+      <FaMixcloud className="p-2 mt-5 ml-2 text-5xl text-black transition duration-200 border-4 border-black border-solid rounded-full shadow-xl hover:scale-125"/>
+      </a>
+      <h3 className="mt-3 font-extrabold tracking-widest text-black text-md nav-links "></h3>
+        </div>
+    
+       {/* INSTAGRAM */}
+        <div>
+      <a href="https://www.instagram.com/djluchainz/">
+      <GrInstagram className="p-2 mt-4 ml-5 text-5xl text-orange-600 transition duration-200 border-4 border-solid rounded-full shadow-xl border-rose-600 hover:scale-125" />
+      </a>
+      <h3 className="mt-3 font-extrabold tracking-widest text-black text-md nav-links"></h3>
+        </div>
+        </div>
+        </div>
       </div>
      </div>
  
     <section className="p-8 mb-6 text-center md:mb-16">
     
      {/* Col 1 Bio */}
-      <div className='grid grid-cols-4 tracking-widest text-black  font-[400] mt-4'>
+      <div className='grid grid-cols-4 tracking-widest text-black  font-[400] '>
 
       <div className="col-span-4 col-start-1 text-left ">
       <p className='mb-4 leading-10'>LuChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry. Based out of New York City, LuChainz has traveled all country, playing at some of the most exclusive events and venues.</p>
@@ -40,13 +73,15 @@ const about = () => {
     <div className='grid grid-cols-4 tracking-widest text-black  font-[400] '>
  
     <div className='col-span-4 col-start-1 mt-2 text-left'>
-    <p className='mb-4 leading-10'>Skilled in reading the crowd and adjusting the music to match their energy, Chainz has ability to create seamless and dynamic flows of music to keep the party going, and he knows just how to build and release tension to create a memorable experience for all. </p>
+    <p className='mb-4 leading-10'>Adept in reading the crowd and adjusting the music to match their energy, Chainz has ability to create seamless and dynamic flows of music to keep the party going. </p>
     </div>
         
     <div className='col-span-4 col-start-1 text-left'>
-    <p className='leading-10'>Apart from his technical skills, He is also an expert in event planning and coordination. He can work with event planners and organizers to ensure that the music complements the overall vibe and theme of the event, and he is always willing to go above and beyond to make sure everything runs smoothly.
-        
-    When booking LuChainz, expect a reliable and professional DJ with a passion for music and a commitment to having an unforgettable experience.</p>
+    <p className='leading-10'>Apart from his technical skills, He is also an expert in event planning and collaboration. He can work with event planners and organizers to ensure that the music complements the overall vibe and theme of the event, and he is always willing to go above and beyond to make sure everything runs smoothly.
+    </p>
+    <p className='mt-4 leading-10'> 
+    When booking LuChainz, expect a reliable and professional DJ with a passion for music and a commitment to having an unforgettable experience.
+    </p>
     </div>
         
         </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
                     <Image className="hover:scale-125" src={logo} alt="logo" width="150"/>
                 </Link>
                 
-                <div className="md:hidden">
+                <div className=" md:hidden">
                     <button
                         className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
                         onClick={() => setNavbar(!navbar)}
@@ -63,29 +63,29 @@ const Navbar = () => {
                     navbar ? "block" : "hidden"
                 }`}
             >
-                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 font-sans text-sm text-white md:flex md:space-x-10 md:space-y-0 ">
+                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-white text-md md:flex md:space-x-10 md:space-y-0 ">
                     <Link href="/">
-                    <p className="py-2 tracking-widest hover:scale-150 ">HOME
+                    <p className="py-4 tracking-widest hover:scale-150 ">Home
                     </p>
                     </Link>
                
                     <Link href="/about">
-                    <p className="py-3 tracking-widest hover:scale-150 ">ABOUT
+                    <p className="py-4 tracking-widest hover:scale-150 ">About
                     </p>
                     </Link>
                     
                     <Link href="/music">
-                    <p className="py-3 tracking-widest hover:scale-150 ">MUSIC
+                    <p className="py-4 tracking-widest hover:scale-150 ">Music
                     </p>
                     </Link>
                     
                     <Link href="/media" >
-                    <p className="py-3 tracking-widest hover:scale-150 ">MEDIA
+                    <p className="py-4 tracking-widest hover:scale-150 ">Gallery
                     </p>
                     </Link>
                     
                     <Link href="/contact">
-                    <p className="py-3 tracking-widest hover:scale-150">BOOKING
+                    <p className="py-4 tracking-widest hover:scale-150">Contact
                     </p>
                     </Link>
                 </ul>
