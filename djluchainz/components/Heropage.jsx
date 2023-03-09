@@ -24,7 +24,8 @@ const Heropage = () => {
         src={bg}
         alt="/"
         fill
-        cover
+        sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw"
+        cover="true"
         quality={100}
       />
       <Image src={twin} className="relative grid w-full max-w-sm pb-20 hero-content md:mb-20 md:justify-center md:max-w-md lg:mt-20 mb:20" alt="#"/>
@@ -58,26 +59,26 @@ const Heropage = () => {
      <div className='grid grid-cols-1 p-2 pr-8 bg-slate-900 md:gap-2 lg:grid-cols-4 md:grid-cols-2'>
      {/* Col 1 */}
      <div className="w-full pt-1 m-4 text-center h-26">
-       <p className=' text-[46px] font-[400]  text-[#FEEEAC] tracking-wider '>1<span className="text-[28px] mr-1">,</span>200 </p>
-       <p className='text-[18px] text-gray-300'>Events Completed </p>
+       <p className=' text-[46px] font-[400]  text-gray-200  tracking-wider '>1<span className="text-[28px] mr-1">,</span>200 </p>
+       <p className='text-[18px] text-gray-300 tracking-widest'>Events Completed </p>
      </div>
  
  
      {/* Col 2 */}
      <div className="w-full pt-1 m-4 text-center h-26">
-     <p className='text-[46px] font-[400]  text-[#A4D5B7] tracking-wider  '>12 </p>
-     <p className='text-[18px] text-gray-300'>Years of Experience</p>
+     <p className='text-[46px] font-[400]  text-gray-200 tracking-wider  '>12 </p>
+     <p className='text-[18px] text-gray-300 tracking-widest'>Years of Experience</p>
    </div>
      {/* Col 3 */}
      <div className="w-full pt-1 m-4 text-center h-26 ">
-       <p className='text-[46px] font-[400]  text-[#43B9A6] tracking-wider '>8</p>
-       <p className='text-[18px]  text-gray-300  '>Djs Mentored</p>
+       <p className='text-[46px] font-[400]  text-gray-200  tracking-wider '>8</p>
+       <p className='text-[18px]  text-gray-300 tracking-widest '>Djs Mentored</p>
      </div>
      
      {/* Col 4 */}
      <div className="w-full pt-1 m-4 text-center h-26 ">
-     <p className=' text-[46px] font-[400]  text-[#FEEEAC] tracking-wider '>1<span className="text-[28px] mr-1">,</span>100 </p>
-     <p className='text-[18px] text-gray-300 ' >Clients & Referrals</p>
+     <p className=' text-[46px] font-[400]  text-gray-200 tracking-wider '>1<span className="text-[28px] mr-1">,</span>100 </p>
+     <p className='text-[18px] text-gray-300 tracking-widest' >Clients & Referrals</p>
    </div> 
     
      
@@ -93,23 +94,23 @@ const Heropage = () => {
 
         {/* Paragraph 1 */}
         <p>
-        <span className='font-[600] text-[44px] '>Having a Party ?</span>
+        <span className='font-[600] text-[36px] '>Do You Have an Upcoming Event ?</span>
         <br />
         <br/>
-        Well, you are in luck because PartyWithUs Entertainment & <span className='text-red-700 text-[22px]'>Dj LuChainz </span>have a goal  to make sure you and your guests have fun and enjoy your special event as much as possible.
+       PartyWithUs Entertainment & <span className='text-red-800 text-[22px]'>Dj LuChainz </span>have a goal  to make your event memorable and as special as possible for you and your guests.
         <br/>
         <br/>
         </p>
         
         {/* Paragraph 2 */}
         <p>
-        Our team brings over a decade of experience planning and executing parties all over <span className='text-red-700 text-[22px]'>New York </span> area and throughout the United States. 
+        Our team brings <span className='text-red-800 text-[22px]'>over a decade</span> of experience planning and executing parties in New York City, New Jersey, and Pennsylvania regions of the United States. 
         </p>
         <br/>
         
         {/* Paragraph 3 */}
         <p>
-         Many of the parties we do are <span className='text-red-700 text-[22px]'>return customers & referrals</span>. You always get the best price for the professional services you want. You can be confident everything will go smoothly and that everyone will have a great time. 
+       Providing the best prices and the services to match, We prioritize making sure events go smoothly and that everyone has great time. Thank you in advance to <span className='text-red-800 text-[22px]'>returning clients & new referrals</span>.
         </p>
         
         </p>
@@ -125,22 +126,6 @@ const Heropage = () => {
     </div>
 
    
-
-
-
-
-
-
-
-    
-      {/* Button */}
-      <div className="mb-6 ml-4 text-center md:text-left">
-      <Link href="/media">
-      <button className="px-16 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold max-w-[300px] self-center ">Learn More
-      </button>
-      </Link>
-      
-      </div>
    
       
     
