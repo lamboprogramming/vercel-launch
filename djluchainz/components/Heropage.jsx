@@ -86,47 +86,34 @@ const Heropage = () => {
     <div className="grid grid-cols-4">
     {/* Col 1 */}
       <div className='col-span-4 col-start-1 text-center md:text-left'>
-        <div className='text-[20px]  text-black tracking-wider leading-10 mb-4 p-6 m-2 '>
+        <div className='text-[20px]  text-black tracking-wider leading-10 mb-2 p-6 m-2 '>
 
-        <p className='font-[600] text-[36px] md:mt-2 '>Do You Have an Event Approaching ?</p>
+        <p className='font-[600] text-[36px] md:mt-2 '>Looking for a DJ ?</p>
 
         {/* Paragraph 1 */}
-        <p>
+        <p className='font-[400]'>
         <br />
-        <br/>
-       <span className='text-red-800 text-[22px]'>Dj LuChainz </span> & PartyWithUs Entertainment have one goal - to make your next event as special as possible for you and your guests.
-        <br/>
-        <br/>
-        </p>
+  
+       <span className='text-red-800 text-[22px] italic'>Dj LuChainz </span> & <span className='italic '>PartyWithUsEntertainment </span> is located in the New York City Metropolitan area. 
         
-        {/* Paragraph 2 */}
-        <p>
-        With over a <span className='text-red-800 text-[22px]'>decade</span> of experience planning and executing parties in the New York City metropolitan area - We prioritize professionalism, high-energy environments, . 
         </p>
-        <br/>
+        <br />
+        {/* Paragraph 2 */}
+        <p className='font-[200]'>
+        With over a decade of experience planning and executing parties - we prioritize professionalism & are very excited to make your next event special and memorable for you and your guests.
+        </p>
+
+        <br />
         
         {/* Paragraph 3 */}
-        <p>
-       Providing the best prices and the services to match, Thank you in advance to <span className='text-red-800 text-[22px]'>returning clients & new referrals</span>.
+        <p className='font-[200]'>
+        <span className='italic '>PartyWithUsEntertainment </span>  provides affordable pricing and services to accommodate all clients and collaborative inquiries.
         </p>
-        
         </div>
       </div>
       
-      {/* Col 2 */}
-      <div></div>
-
-      {/* Col 3 */}
-      <div></div>
-      {/* Col 4 */}
-      <div></div>
     </div>
 
-   
-   
-      
-    
-    
     </>
       
   );

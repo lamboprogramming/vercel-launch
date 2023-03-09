@@ -57,10 +57,10 @@ const about = () => {
     <section className="p-8 mb-6 text-center md:mb-16">
     
      {/* Col 1 Bio */}
-      <div className='grid grid-cols-4 tracking-widest text-black  font-[400] '>
+      <div className='grid grid-cols-4 tracking-widest text-black  font-[200] '>
 
       <div className="col-span-4 col-start-1 text-left ">
-      <p className='mb-4 leading-10'>LuChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry. Based out of New York City, LuChainz has traveled all country, playing at some of the most exclusive events and venues.</p>
+      <p className='mb-4 leading-10 '><span className='font-[300] text-[58px]'>L</span>uChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry. Based out of New York City, LuChainz has traveled all country, playing at some of the most exclusive events and venues.</p>
       </div> 
 
       <div className='col-span-4 col-start-1 text-left '>
@@ -70,7 +70,7 @@ const about = () => {
       
        
        {/* Col 2 Bio */}
-    <div className='grid grid-cols-4 tracking-widest text-black  font-[400] '>
+    <div className='grid grid-cols-4 tracking-widest text-black  font-[200] '>
  
     <div className='col-span-4 col-start-1 mt-2 text-left'>
     <p className='mb-4 leading-10'>Adept in reading the crowd and adjusting the music to match their energy, Chainz has ability to create seamless and dynamic flows of music to keep the party going. </p>
