@@ -14,7 +14,7 @@ const Heropage = () => {
   return (
     <>
     {/* Banner and Images */}
-    <div className="relative grid h-full grid-cols-1 pb-10 hero" > 
+    <div className="relative flex flex-col md:h-[65vh] h-[55vh] lg:h-[70vh] pb-10 hero" > 
       <Image
         src={bg}
         priority
@@ -23,6 +23,7 @@ const Heropage = () => {
         sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw"
         cover="true"
         quality={100}
+        
       />
       <Image src={twin} className="relative grid w-full max-w-sm pb-20 hero-content md:mb-20 md:justify-center md:max-w-md lg:mt-20 mb:20" alt="#"/>
     </div>
@@ -35,18 +36,15 @@ const Heropage = () => {
             <button className="px-10 py-6  text-2xl  text-black  border-4 border-gray-900 bg-gradient-to-r bg-transparent hover:bg-slate-50  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4  w-full font-[600] ">{message}
             </button>
         </Link>  
-    </div>
-
+   
+    
     {/* Section 1 */}
-    <div className="grid grid-cols-4 gap-4">
-    {/* Grid 1 */}
-      <div className='grid col-span-4 col-start-1 p-4 text-center'>
+      <div className='mt-4 text-center '>
         <p className='text-black mb-6 font-bold  text-[32px] md:text-[40px]  tracking-wider '>Choose Your Event. Get a Quote. Secure a Date.</p>
       </div>
-      {/* Grid 2 */}
-      <div className='hidden'>
-  
-      </div>
+    
+ 
+
     </div>
 
     
@@ -77,7 +75,6 @@ const Heropage = () => {
      <p className='text-[18px] text-gray-300 tracking-widest' >Clients & Referrals</p>
    </div> 
     
-     
      </div>
 
      
@@ -91,7 +88,7 @@ const Heropage = () => {
         
 
         {/* Paragraph 1 */}
-        <p className='font-[600] text-[28px]'><span className="italic text-red-800">DJ LuChainz</span> & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
+        <p className='font-[600] text-[28px] '><span className="italic text-red-800">Dj LuChainz</span> & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
         
     
        
