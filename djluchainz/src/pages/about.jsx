@@ -3,57 +3,71 @@ import Image from 'next/image'
 import dassa from '../../public/images/dassa3.jpeg'
 import Navbar from '../../components/Navbar'
 import Testimonials from '../../components/Testimonials'
+import Footer from 'components/Footer';
 
 const about = () => {
   return (
     <>
     <Navbar />
    
-        {/* Col 1 Bio & Social*/}
-  <div className='p-4 bg-white md:p-2'>
-  <div className="container mx-auto my-8 md:my-24">
-
-    <section className="mb-20 text-center md:mb-32">
-      {/* Bio */}
-      <div className="self-center ">
-
-      {/* Twin photo */}
-        <div className="grid justify-center">
        
-        </div>
+  <div className=' bg-slate-200'>
+  <div className="mx-auto my-2">
+  
+      {/* Twin photo */}
+      <div className='flex justify-center'>
+      <div>
+        <Image src={dassa} alt="/" className='pt-4 pl-4 pr-4 rounded-full'/>
+      </div>
+     </div>
+ 
+    <section className="p-8 mb-6 text-center md:mb-16">
+    
+     {/* Col 1 Bio */}
+      <div className='grid grid-cols-4 tracking-widest text-black  font-[400] mt-4'>
 
-        <div className='grid grid-cols-1'>
-                <h1 className="w-full font-sans text-3xl font-bold leading-10 tracking-wider text-center text-black shadow-md "> Restuants, Bars, Clubs, Lounges, Corporate, Schools, Collaborations & more </h1>
-        </div>
-        <div className='grid grid-cols-1 mt-4 md:grid-cols-5'>
-          <div className='md:col-span-5 md:col-start-2'>
-            <Image src={dassa} alt="/" className='shadow-2xl rounded-2xl'/>
-          </div>
-         
-        </div>
-       {/* Biography */}
-       <div className="grid grid-cols-4">
+      <div className="col-span-4 col-start-1 text-left ">
+      <p className='mb-4 leading-10'>LuChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry. Based out of New York City, LuChainz has traveled all country, playing at some of the most exclusive events and venues.</p>
+      </div> 
 
-        <div className="p-4 mt-4 leading-10  tracking-wider text-black  lg:text-2xl lg:m-20 font-[200] col-start-1 col-span-4 text-left">
-        <p>Growing up in New York City exposed me to a melting pot of culture and music. Being a DJ means that I get to provide the energy and life of an event! Theres something about seeing dancing and laughter that makes me feel the energy.</p>
-            
-       <br/>
-           <p> Even after a decade on the turntables, I am still just as passionate about my craft as ever and I am excited to make excited moments with you. </p>
+      <div className='col-span-4 col-start-1 text-left '>
+      <p className='mb-2 leading-10'>Known for his exceptional mixing skills, Chainz has an ear for music that can keep a dance floor packed all night long. His versatility in music genres, from house to hip-hop OR reggae to espanol  - is proof that he can cater to any crowd and keep them entertained. </p>
+      </div>
+      </div>
+      
+       
+       {/* Col 2 Bio */}
+    <div className='grid grid-cols-4 tracking-widest text-black  font-[400] '>
+ 
+    <div className='col-span-4 col-start-1 mt-2 text-left'>
+    <p className='mb-4 leading-10'>Skilled in reading the crowd and adjusting the music to match their energy, Chainz has ability to create seamless and dynamic flows of music to keep the party going, and he knows just how to build and release tension to create a memorable experience for all. </p>
+    </div>
+        
+    <div className='col-span-4 col-start-1 text-left'>
+    <p className='leading-10'>Apart from his technical skills, He is also an expert in event planning and coordination. He can work with event planners and organizers to ensure that the music complements the overall vibe and theme of the event, and he is always willing to go above and beyond to make sure everything runs smoothly.
+        
+    When booking LuChainz, expect a reliable and professional DJ with a passion for music and a commitment to having an unforgettable experience.</p>
+    </div>
+        
         </div>
+       
 
 
-        </div>
+      
        
   
-      </div>
+      
    </section>
    
   </div>
   {/* Testimonials */}
+ 
   <Testimonials />
   
-</div>
 
+  
+</div>
+<Footer />
     
     </>
   );

@@ -13,7 +13,7 @@ const Testimonials = () => {
       
       {/* Testimonials Section */}
       <div className="w-full px-5 py-12 border-t border-b border-gray-200 black md:py-20">
-          <div className="w-full max-w-6xl mx-auto font-sans">
+          <div className="w-full max-w-6xl mx-auto ">
             
               <div className="items-start -mx-3 md:flex">
                   <div className="px-3 md:w-1/3">
@@ -25,11 +25,11 @@ const Testimonials = () => {
                                   <Image src={nlma} className="h-10" alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">Next Level Martial Arts</h6>
+                                  <h6 className="text-lg font-bold tracking-wider uppercase black ">Next Level Martial Arts</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-md"><span className="mr-1 text-lg italic font-bold leading-none black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="leading-8 text-md"><span className="mr-1 italic font-bold leading-none text-md black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
                           </div>
                       </div>
                     {/* Card */}
@@ -39,11 +39,11 @@ const Testimonials = () => {
                                   <Image src={tck} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">TCK Mixed Martial Arts</h6>
+                                  <h6 className="text-lg font-bold tracking-wider uppercase black ">TCK Mixed Martial Arts</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8">DJ Finn is the best. I forget that we are here working out because it feels like a party; I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
+                              <p className="leading-8 text-md"> I forget that we are here working out because it feels like a party - I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
                           </div>
                       </div>
                   </div>
@@ -55,11 +55,11 @@ const Testimonials = () => {
                                   <Image src={iguana} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-xl font-bold tracking-wider uppercase black ">Iguana Lounge NYC</h6>
+                                  <h6 className="text-lg font-bold tracking-wider uppercase black ">Iguana Lounge NYC</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-md "> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
+                              <p className="leading-8 text-md"> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
                           </div>
                       </div>
                       {/* Card */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-black xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. It seems like you hear things that other people dont and that is really cool !</p>
+                              <p className="leading-8 text-black text-md xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. You obviously have a different ear for music </p>
                           </div>
                       </div>
                   </div>
@@ -86,11 +86,11 @@ const Testimonials = () => {
                                   <Image src={suite} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-xl font-bold tracking-wider text-black uppercase ">Suite 215</h6>
+                                  <h6 className="text-lg font-bold tracking-wider text-black uppercase ">Suite 215</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-md ">Pleasure to have you, you are welcomed to come back anytime</p>
+                              <p className="leading-8 text-md">Pleasure to have you, you are welcomed to come back anytime</p>
                           </div>
                       </div>
                     {/* Card */}
@@ -100,11 +100,11 @@ const Testimonials = () => {
                                   <Image src={sfc} alt=""/>
                               </div>
                               <div className="flex-grow pl-3">
-                                  <h6 className="text-xl font-bold tracking-wider text-black uppercase ">St Francis College</h6>
+                                  <h6 className="text-lg font-bold tracking-wider text-black uppercase ">St Francis College</h6>
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-8 text-md ">You kill it every time and you know we appreciate you.</p>
+                              <p className="leading-8 text-md">We appreciate you, You always know exactly what to play</p>
                           </div>
                       </div>
                   </div>

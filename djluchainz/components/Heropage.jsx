@@ -9,19 +9,15 @@ import hall12 from '../public/images/hall12.jpg'
 const Heropage = () => {
 
 
-    const backgroundImageStyle = {
-        backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-      }
-
-      const message = `Let's Talk`;
+      const message = `Request a Quote`;
     
   return (
     <>
     {/* Banner and Images */}
-    <div className="relative grid h-full grid-cols-1 pb-10 hero" style={backgroundImageStyle}> 
+    <div className="relative grid h-full grid-cols-1 pb-10 hero" > 
       <Image
         src={bg}
+        priority
         alt="/"
         fill
         sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw"
@@ -36,7 +32,7 @@ const Heropage = () => {
 
       
         <Link href="/contact">
-            <button className="px-20 py-6  text-2xl  text-black  border-4 border-gray-900 bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4  w-full font-[600] ">{message}
+            <button className="px-10 py-6  text-2xl  text-black  border-4 border-gray-900 bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4  w-full font-[600] ">{message}
             </button>
         </Link>  
     </div>
@@ -87,33 +83,34 @@ const Heropage = () => {
      
 
     {/* Section 3 */}
-    <div className="grid grid-cols-4 pt-4">
+    <div className="grid grid-cols-4">
     {/* Col 1 */}
       <div className='col-span-4 col-start-1 text-center md:text-left'>
-        <p className='text-[20px]  text-black tracking-wider leading-10 mb-6 p-6 m-2 '>
+        <div className='text-[20px]  text-black tracking-wider leading-10 mb-4 p-6 m-2 '>
+
+        <p className='font-[600] text-[36px] md:mt-2 '>Do You Have an Event Approaching ?</p>
 
         {/* Paragraph 1 */}
         <p>
-        <span className='font-[600] text-[36px] '>Do You Have an Upcoming Event ?</span>
         <br />
         <br/>
-       PartyWithUs Entertainment & <span className='text-red-800 text-[22px]'>Dj LuChainz </span>have a goal  to make your event memorable and as special as possible for you and your guests.
+       <span className='text-red-800 text-[22px]'>Dj LuChainz </span> & PartyWithUs Entertainment have one goal - to make your next event as special as possible for you and your guests.
         <br/>
         <br/>
         </p>
         
         {/* Paragraph 2 */}
         <p>
-        Our team brings <span className='text-red-800 text-[22px]'>over a decade</span> of experience planning and executing parties in New York City, New Jersey, and Pennsylvania regions of the United States. 
+        With over a <span className='text-red-800 text-[22px]'>decade</span> of experience planning and executing parties in the New York City metropolitan area - We prioritize professionalism, high-energy environments, . 
         </p>
         <br/>
         
         {/* Paragraph 3 */}
         <p>
-       Providing the best prices and the services to match, We prioritize making sure events go smoothly and that everyone has great time. Thank you in advance to <span className='text-red-800 text-[22px]'>returning clients & new referrals</span>.
+       Providing the best prices and the services to match, Thank you in advance to <span className='text-red-800 text-[22px]'>returning clients & new referrals</span>.
         </p>
         
-        </p>
+        </div>
       </div>
       
       {/* Col 2 */}
