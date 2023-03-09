@@ -14,7 +14,7 @@ const Heropage = () => {
         backgroundSize: "cover",
       }
 
-
+      const message = `Let's Talk`;
     
   return (
     <>
@@ -35,7 +35,7 @@ const Heropage = () => {
 
       
         <Link href="/contact">
-            <button className="px-20 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-sans font-semibold w-full  ">Request a Quote
+            <button className="px-20 py-6  text-2xl  text-black  border-4 border-gray-900 bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4  w-full font-[600] ">{message}
             </button>
         </Link>  
     </div>
@@ -44,7 +44,7 @@ const Heropage = () => {
     <div className="grid grid-cols-4 gap-4">
     {/* Grid 1 */}
       <div className='grid col-span-4 col-start-1 p-4 text-center'>
-        <p className='text-black mb-6 font-bold  text-[24px] md:text-[40px]  tracking-wider '>Choose Your Event. Get a Quote. Secure a Date.</p>
+        <p className='text-black mb-6 font-bold  text-[32px] md:text-[40px]  tracking-wider '>Choose Your Event. Get a Quote. Secure a Date.</p>
       </div>
       {/* Grid 2 */}
       <div className='hidden'>
@@ -55,29 +55,29 @@ const Heropage = () => {
     
 
      {/* Section 2  */}
-     <div className='grid grid-cols-1 pr-8 tracking-widest md:gap-3 md:grid-cols-4 rounded-2xl'>
+     <div className='grid grid-cols-1 p-2 pr-8 bg-slate-900 md:gap-2 lg:grid-cols-4 md:grid-cols-2'>
      {/* Col 1 */}
-     <div className="w-full h-30 pt-1 m-4 text-center bg-[#feeeac]">
-       <p className=' text-[48px] font-[900] text-black'>Over 2,000</p>
-       <p className='text-[24px] font-[500] text-black font-sans p-1'>Events Done </p>
+     <div className="w-full pt-1 m-4 text-center h-26">
+       <p className=' text-[46px] font-[400]  text-[#FEEEAC] tracking-wider '>1<span className="text-[28px] mr-1">,</span>200 </p>
+       <p className='text-[18px] text-gray-300'>Events Completed </p>
      </div>
  
  
      {/* Col 2 */}
-     <div className="w-full h-30 pt-1 m-4 text-center bg-[#a4add5]">
-     <p className='text-[48px] font-[900] text-black '>More than 500</p>
-     <p className='text-[24px] font-[500] text-black font-sans p-1'>Satisfied Clients</p>
+     <div className="w-full pt-1 m-4 text-center h-26">
+     <p className='text-[46px] font-[400]  text-[#A4D5B7] tracking-wider  '>12 </p>
+     <p className='text-[18px] text-gray-300'>Years of Experience</p>
    </div>
      {/* Col 3 */}
-     <div className="w-full h-30 pt-1 m-4 text-center bg-[#A3B9A6]">
-       <p className='text-[48px] font-[900] text-black '>Over a Decade</p>
-       <p className='text-[24px] font-[500] text-black font-sans p-1'>Of Experience</p>
+     <div className="w-full pt-1 m-4 text-center h-26 ">
+       <p className='text-[46px] font-[400]  text-[#43B9A6] tracking-wider '>8</p>
+       <p className='text-[18px]  text-gray-300  '>Djs Mentored</p>
      </div>
      
      {/* Col 4 */}
-     <div className="w-full h-30 pt-1 m-4 text-center bg-[#ffffff]">
-     <p className='text-[48px] font-[900] text-black '>5+ Djs</p>
-     <p className='text-[24px] font-[500] text-black font-sans p-1'>Mentored</p>
+     <div className="w-full pt-1 m-4 text-center h-26 ">
+     <p className=' text-[46px] font-[400]  text-[#FEEEAC] tracking-wider '>1<span className="text-[28px] mr-1">,</span>100 </p>
+     <p className='text-[18px] text-gray-300 ' >Clients & Referrals</p>
    </div> 
     
      
@@ -88,9 +88,30 @@ const Heropage = () => {
     {/* Section 3 */}
     <div className="grid grid-cols-4 pt-4">
     {/* Col 1 */}
-      <div className='col-span-6 col-start-1 md:col-start-6 md:col-span-4 text-[Inria] text-left'>
-        <p className='text-[30px] font-[300] text-black tracking-wider leading-10 mb-6 p-6 m-2 '>
-        <span className='font-bold text-[44px]'>F</span>or over a Decade, <span className='font-bold'>DJ LuChainz</span> has been amplifying events, energizing audiences, and creating buzz all over the United States. Thousands of events and clients later, this highly curated DJ delivers  our incredible services will make you feel confident in booking us. amazing event experiences - 100% guaranteed.
+      <div className='col-span-4 col-start-1 text-center md:text-left'>
+        <p className='text-[20px]  text-black tracking-wider leading-10 mb-6 p-6 m-2 '>
+
+        {/* Paragraph 1 */}
+        <p>
+        <span className='font-[600] text-[44px] '>Having a Party ?</span>
+        <br />
+        <br/>
+        Well, you are in luck because PartyWithUs Entertainment & <span className='text-red-700 text-[22px]'>Dj LuChainz </span>have a goal  to make sure you and your guests have fun and enjoy your special event as much as possible.
+        <br/>
+        <br/>
+        </p>
+        
+        {/* Paragraph 2 */}
+        <p>
+        Our team brings over a decade of experience planning and executing parties all over <span className='text-red-700 text-[22px]'>New York </span> area and throughout the United States. 
+        </p>
+        <br/>
+        
+        {/* Paragraph 3 */}
+        <p>
+         Many of the parties we do are <span className='text-red-700 text-[22px]'>return customers & referrals</span>. You always get the best price for the professional services you want. You can be confident everything will go smoothly and that everyone will have a great time. 
+        </p>
+        
         </p>
       </div>
       
@@ -113,9 +134,9 @@ const Heropage = () => {
 
     
       {/* Button */}
-      <div className="hidden mb-6 text-center">
+      <div className="mb-6 ml-4 text-center md:text-left">
       <Link href="/media">
-      <button className="px-6 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold max-w-[300px] self-center ">Learn More
+      <button className="px-16 py-6  text-2xl  text-black  border-2 border-black rounded-full bg-gradient-to-r bg-transparent hover:bg-indigo-300  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4 font-san font-semibold max-w-[300px] self-center ">Learn More
       </button>
       </Link>
       
