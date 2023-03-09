@@ -85,28 +85,28 @@ const Heropage = () => {
     {/* Section 3 */}
     <div className="grid grid-cols-4">
     {/* Col 1 */}
-      <div className='col-span-4 col-start-1 text-center md:text-left'>
-        <div className='text-[20px]  text-black tracking-wider leading-10 mb-2 p-6 m-2 '>
+      <div className='col-span-4 col-start-1 text-center '>
+        <div className='text-[20px]  text-black tracking-wider leading-10  p-6 '>
 
-        <p className='font-[600] text-[36px] md:mt-2 '>Looking for a DJ ?</p>
+        
 
         {/* Paragraph 1 */}
-        <p className='font-[400]'>
-        <br />
-  
-       <span className='text-red-800 text-[22px] italic'>Dj LuChainz </span> & <span className='italic '>PartyWithUsEntertainment </span> is located in the New York City Metropolitan area. 
+        <p className='font-[600] text-[28px]'><span className="italic text-red-800">DJ LuChainz</span> & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
         
-        </p>
+    
+       
+        
+       
         <br />
         {/* Paragraph 2 */}
-        <p className='font-[200]'>
-        With over a decade of experience planning and executing parties - we prioritize professionalism & are very excited to make your next event special and memorable for you and your guests.
+        <p className='font-[200] text-[22px]'>
+        With <span className="text-red-800">over a decade</span> of experience planning and executing parties - we prioritize professionalism & are very excited to make your next event special and memorable for you and your guests.
         </p>
 
         <br />
         
         {/* Paragraph 3 */}
-        <p className='font-[200]'>
+        <p className='font-[200] text-[22px]'>
         <span className='italic '>PartyWithUsEntertainment </span>  provides affordable pricing and services to accommodate all clients and collaborative inquiries.
         </p>
         </div>
