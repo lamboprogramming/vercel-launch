@@ -83,9 +83,9 @@ const Heropage = () => {
      
 
     {/* Section 3 */}
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-1">
     {/* Col 1 */}
-      <div className='col-span-4 col-start-1 text-center '>
+      <div className='text-center '>
         <div className='text-[20px]  text-black tracking-wider leading-10  p-6 '>
 
         
