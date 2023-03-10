@@ -84,15 +84,15 @@ const Heropage = () => {
      
 
     {/* Section 3 */}
-    <div className="grid grid-cols-4">
+    <div className="grid items-center grid-cols-1 p-8 mt-4 overflow-hidden justify-items-center">
     {/* Col 1 */}
-      <div className='col-span-4 col-start-1 text-center '>
-        <div className='text-[20px]  text-black tracking-wider leading-10  p-6 '>
+      
+        <div className='grid text-[18px]  text-black tracking-wider leading-10  '>
 
         
 
         {/* Paragraph 1 */}
-        <p className='font-[600] text-[28px] '><span className="italic text-red-800">Dj LuChainz</span> & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
+        <p className='font-bold text-[24px]'>Dj LuChainz & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
         
     
        
@@ -101,19 +101,19 @@ const Heropage = () => {
         <br />
         {/* Paragraph 2 */}
         <p className='font-[200] text-[22px]'>
-        With <span className="text-red-800">over a decade</span> of experience planning and executing parties - we prioritize professionalism & are very excited to make your next event special and memorable for you and your guests.
+        With <span className="text-red-800 text-[24px]">over a decade</span> of experience planning and executing parties, we make sure to  prioritize professionalism & are very excited to make your next event special for you and your guests.
         </p>
 
         <br />
         
         {/* Paragraph 3 */}
         <p className='font-[200] text-[22px]'>
-        <span className='italic '>PartyWithUsEntertainment </span>  provides affordable pricing and services to accommodate all clients and collaborative inquiries.
+        <span className='italic '>We</span>  provides affordable pricing and services to accommodate our client and collaborative inquiries.
         </p>
         </div>
       </div>
       
-    </div>
+  
 
     </>
       
