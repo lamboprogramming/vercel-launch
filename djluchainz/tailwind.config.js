@@ -12,7 +12,9 @@ module.exports = {
     fontFamily: {
       
     },
-    extend: {},
+    extend: {
+      inset: ["group-hover"]
+    },
   },
   plugins: [require('daisyui')],
 }

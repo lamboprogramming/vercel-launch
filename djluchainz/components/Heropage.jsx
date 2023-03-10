@@ -5,6 +5,7 @@ import twin from '../public/images/twindj.png'
 
 import Social from './Social'
 import hall12 from '../public/images/hall12.jpg'
+import Animate from './Animate'
 
 
 const Heropage = () => {
@@ -15,7 +16,7 @@ const Heropage = () => {
   return (
     <>
     {/* Banner and Images */}
-    <div className="relative grid h-full grid-cols-1 pb-10 hero" > 
+    <div className="relative grid w-full grid-cols-1 pb-10 bg-fixed h-96 md:h-full hero" > 
       <Image
         src={bg}
         priority
@@ -25,24 +26,21 @@ const Heropage = () => {
         cover="true"
         quality={100}
       />
-      <Image src={twin} className="relative grid w-full max-w-sm pb-20 hero-content md:mb-20 md:justify-center md:max-w-md lg:mt-20 mb:20" alt="#"/>
-    </div>
-    
-    {/* Request Quote Button */}      
-    <div className="flex-col pb-10 mt-4 overflow-hidden text-center hero-content md:justify-center lg:pl-10 lg:ml-10 lg:">
 
       
-        <Link href="/contact">
-            <button className="px-10 py-6  text-2xl  text-black  border-4 border-gray-900 bg-gradient-to-r bg-transparent hover:bg-slate-50  sm:w-[20] mr-1 tracking-widest mt-2  lg:mt-4  w-full font-[600] ">{message}
-            </button>
-        </Link>  
+      <div className="">
+      <Image src={twin} className="relative w-60" alt="#"/>
+      </div>
+      
     </div>
-
+    
+    
+  
     {/* Section 1 */}
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-4 gap-4 mt-8">
     {/* Grid 1 */}
       <div className='grid col-span-4 col-start-1 p-4 text-center'>
-        <p className='text-black mb-6 font-bold  text-[32px] md:text-[40px]  tracking-wider '>Choose Your Event. Get a Quote. Secure a Date.</p>
+        <p className='text-black mb-6 font-bold  text-[32px] md:text-[40px]  tracking-wider '>Select Event. Get Quote. Secure Date.</p>
       </div>
       {/* Grid 2 */}
       <div className='hidden'>
@@ -50,36 +48,13 @@ const Heropage = () => {
       </div>
     </div>
 
+    <div>
+      <Animate />
+    </div>
+
     
 
-     {/* Section 2  */}
-     <div className='grid grid-cols-1 p-2 pr-8 bg-slate-900 md:gap-2 lg:grid-cols-4 md:grid-cols-2'>
-     {/* Col 1 */}
-     <div className="w-full pt-1 m-4 text-center h-26">
-       <p className=' text-[46px] font-[400]  text-gray-200  tracking-wider '>1<span className="text-[28px] mr-1">,</span>200 </p>
-       <p className='text-[18px] text-gray-300 tracking-widest'>Events Completed </p>
-     </div>
- 
- 
-     {/* Col 2 */}
-     <div className="w-full pt-1 m-4 text-center h-26">
-     <p className='text-[46px] font-[400]  text-gray-200 tracking-wider  '>12 </p>
-     <p className='text-[18px] text-gray-300 tracking-widest'>Years of Experience</p>
-   </div>
-     {/* Col 3 */}
-     <div className="w-full pt-1 m-4 text-center h-26 ">
-       <p className='text-[46px] font-[400]  text-gray-200  tracking-wider '>8</p>
-       <p className='text-[18px]  text-gray-300 tracking-widest '>Djs Mentored</p>
-     </div>
-     
-     {/* Col 4 */}
-     <div className="w-full pt-1 m-4 text-center h-26 ">
-     <p className=' text-[46px] font-[400]  text-gray-200 tracking-wider '>1<span className="text-[28px] mr-1">,</span>100 </p>
-     <p className='text-[18px] text-gray-300 tracking-widest' >Clients & Referrals</p>
-   </div> 
-    
-     
-     </div>
+   
 
      
 

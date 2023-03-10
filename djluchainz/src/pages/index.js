@@ -10,6 +10,7 @@ import Heropage from '../../components/Heropage'
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="bg-slate-200">
         <Navbar />
         <Heropage />
+        
         <Footer />
     </div>
   )
