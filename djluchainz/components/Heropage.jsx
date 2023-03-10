@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import bg from '../public/images/nighttime.jpg'
+import bg from '../public/images/bg1.jpeg'
 import twin from '../public/images/twindj.png'
 
 import Social from './Social'
@@ -15,28 +15,7 @@ const Heropage = () => {
     
   return (
     <>
-    {/* Banner and Images */}
-    <div className="relative grid w-full h-full grid-cols-1 pb-10 bg-contain md:h-full hero" as={bg}> 
-      <Image
-        src={bg}
-        as="preload"
-        priority
-        alt="/"
-        fill
-        sizes="(max-width: 768px) 100vw, (min-width: 768px) 50vw"
-        cover="true"
-        quality={100}
-      />
-
-      
-      <div className="">
-      <Image src={twin} className="relative mt-4 w-60" as="preload" alt="#"/>
-      </div>
-      
-    </div>
     
-    
-  
     {/* Section 1 */}
     <div className="grid grid-cols-4 gap-4 mt-8">
     {/* Grid 1 */}
