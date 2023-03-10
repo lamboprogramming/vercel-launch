@@ -15,7 +15,7 @@ function PricingPlans() {
           className="flex flex-col p-8 bg-white border shadow-lg border-slate-200 rounded-2xl">
             <h3 className="text-xl font-semibold leading-5 text-slate-900">{plan.title}</h3>
         
-            <p className="mt-4 leading-8 text-slate-700 font-[500] tracking-wider ">{plan.description}</p>
+            <p className="mt-4 leading-8 text-slate-700 font-[400] tracking-wider text-[16px] ">{plan.description}</p>
           
             <div className='p-6 mt-4 -mx-6 rounded-lg bg-slate-50'>
               <p className='flex items-center justify-center text-sm font-semibold text-slate-500'>
