@@ -4,10 +4,10 @@ export const pricingplans = [
     price: 100,
     frequency: '/ HR',
     currency: 'USD',
-    description: 'Residential, Clubs, Lounges, Restaurants, Karaoke ',
+    description: 'Residential, Clubs, Lounges, Restaurants, Karaoke, Birthdays ',
     features: [
-      '5 hours ($150 per additional hour)',
-      'Live and Custom playlist with a wide variety of music genres',
+      'Professional DJ and MC services up to 5 hours ($125 per additional hour)',
+      'Live and Custom playlist with a wide variety of music genres based on demographic',
       'High quality sound system equipped with state-of-the-art speakers, amplifiers, mixer board, and microphones','Bartenders, special effect lighting, photography, and videography packages available upon request at an extra charge'
     ],
     cta: 'Get a Quote'
@@ -17,11 +17,11 @@ export const pricingplans = [
     price: 175,
     frequency: '/ HR',
     currency: 'USD',
-    description: 'Businesses, Schools, Corporations, Franchises ',
+    description: 'Businesses, Schools, Corporations, Franchises, Retail Stores ',
     features: [
-      '3 hours  [ $200 per additional hour]',
-      'Live and Custom playlist with a wide variety of music genres',
-      'High quality sound system equipped with state-of-the-art speakers, amplifiers, mixer board, and microphones','Bartenders, special effect lighting, photography, and videography packages available upon request at an extra charge'
+      'Professional DJ and MC services up to 3 hours  [ $200 per additional hour]',
+      'Live and Custom playlist with a wide variety of music genres based on demographic',
+      'High quality sound system equipped with state-of-the-art speakers, amplifiers, mixer board, and microphones', 'MC services to coordinate the timeline of your event, including introductions, and speeches','Bartenders, special effect lighting, photography, and videography packages available upon request at an extra charge'
     ],
     cta: 'Get a Quote'
   },
@@ -30,10 +30,10 @@ export const pricingplans = [
     price: 250,
     frequency: ' / HR',
     currency: 'USD',
-    description: 'Receptions, After Parties, Ceremonies',
+    description: 'Receptions, After Parties, Ceremonies, Cocktail Hour',
     features: [
-      '6 hours ($150 per additional hour)',
-      'Live and Custom playlist with a wide variety of music genres',
+      'Professional DJ and MC services up to 6 hours ($275 per additional hour)',
+      'Live and Custom playlist with a wide variety of music genres based on demographic',
       'High quality sound system equipped with state-of-the-art speakers, amplifiers, mixer board, and microphones','Bartenders, special effect lighting, photography, and videography packages available upon request at an extra charge'
     ],
     cta: 'Get a Quote'
