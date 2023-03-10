@@ -1,5 +1,4 @@
 import React from 'react';
-import GiCheckMark from 'react-icons/Gi'
 import Link from 'next/link'
 
 import { pricingplans  } from 'data';
