@@ -54,43 +54,14 @@ const Heropage = () => {
     </div>
 
     
-
-   
-
-     
-
-    {/* Section 3 */}
-    <div className="grid items-center grid-cols-1 p-8 mt-4 overflow-hidden justify-items-center">
-    {/* Col 1 */}
-      
-        <div className='grid text-[18px]  text-black tracking-wider leading-10  '>
-
-        
-
-        {/* Paragraph 1 */}
-        <p className='font-bold text-[24px]'>Dj LuChainz & PartyWithUsEntertainment is a business located in the <span className="text-red-800">New York City Metropolitan</span> area. </p>
-        
+    <div className='grid grid-cols-1 gap-4 p-4 mt-2'>
     
-       
-        
-       
-        <br />
-        {/* Paragraph 2 */}
-        <p className='font-[200] text-[22px]'>
-        With <span className="text-red-800 text-[24px]">over a decade</span> of experience planning and executing parties, we make sure to  prioritize professionalism & are very excited to make your next event special for you and your guests.
-        </p>
-
-        <br />
-        
-        {/* Paragraph 3 */}
-        <p className='font-[200] text-[22px]'>
-        <span className='italic '>We</span>  provides affordable pricing and services to accommodate our client and collaborative inquiries.
-        </p>
-        </div>
-      </div>
-      
-  
-
+      <div className='grid items-center justify-center text-[18px]  text-black tracking-wider leading-10  '>
+      <p className='font-[600] text-[14px]'>
+      Management will respond to all inquiries within 24 hours.
+     </p>
+      </div> 
+    </div>
     </>
       
   );
