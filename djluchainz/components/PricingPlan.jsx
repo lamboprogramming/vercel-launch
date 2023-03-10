@@ -15,15 +15,19 @@ function PricingPlans() {
           className="flex flex-col p-8 bg-white border shadow-lg border-slate-200 rounded-2xl">
             <h3 className="text-xl font-semibold leading-5 text-slate-900">{plan.title}</h3>
         
-            <p className="mt-4 leading-8 text-slate-700 font-[400] tracking-wider text-[16px] ">{plan.description}</p>
+           
           
-            <div className='p-6 mt-4 -mx-6 rounded-lg bg-slate-50'>
+            <div className='p-6 mt-4 -mx-6 rounded-lg bg-slate-200'>
               <p className='flex items-center justify-center text-sm font-semibold text-slate-500'>
                 <span>{plan.currency}</span>
                 <span className='ml-3 text-5xl text-slate-900'> ${plan.price}</span>
                 <span className='ml-1.5 text-lg tracking-wider'> {plan.frequency}</span>
               </p>
             </div>
+            
+            
+            <p className="mt-4 leading-8 text-slate-700 tracking-wider text-[16px] font-[700] ">{plan.description}</p>
+            
         {/* Features */}
         <ul className='flex-1 mt-6 space-y-4 '>
           {plan.features.map((feature) => (
