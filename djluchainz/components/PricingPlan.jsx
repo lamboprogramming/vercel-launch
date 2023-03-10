@@ -44,7 +44,7 @@ function PricingPlans() {
         </ul>
         
         {/* Call to action */}
-        <Link href="/contact" className='flex justify-center ' >
+        <Link  href="/contact" className='flex justify-center ' >
             <button className="block px-16 py-4 mt-8 text-sm font-semibold leading-4 text-center text-white rounded-lg shadow-md bg-cyan-500 hover:bg-cyan-600">{plan.cta}</button>
         </Link>
           

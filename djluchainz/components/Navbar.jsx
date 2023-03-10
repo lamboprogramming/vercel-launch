@@ -14,7 +14,8 @@ const Navbar = () => {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
            
                 <Link href="/">
-                    <Image className="hover:scale-125" src={logo} alt="logo" width="150"/>
+                    <Image 
+                    className="hover:scale-125" src={logo} alt="logo" width="129"  />
                 </Link>
                 
                 <div className=" md:hidden">

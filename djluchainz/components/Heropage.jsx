@@ -16,9 +16,10 @@ const Heropage = () => {
   return (
     <>
     {/* Banner and Images */}
-    <div className="relative grid w-full grid-cols-1 pb-10 bg-fixed h-96 md:h-full hero" > 
+    <div className="relative grid w-full h-full grid-cols-1 pb-10 bg-contain md:h-full hero" as={bg}> 
       <Image
         src={bg}
+        as="preload"
         priority
         alt="/"
         fill
@@ -29,7 +30,7 @@ const Heropage = () => {
 
       
       <div className="">
-      <Image src={twin} className="relative w-60" alt="#"/>
+      <Image src={twin} className="relative mt-4 w-60" as="preload" alt="#"/>
       </div>
       
     </div>
