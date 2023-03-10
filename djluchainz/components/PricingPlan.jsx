@@ -13,7 +13,7 @@ function PricingPlans() {
         <div 
           key={plan.title}
           className="flex flex-col p-8 bg-white border shadow-lg border-slate-200 rounded-2xl">
-            <h3 className="text-xl font-semibold leading-5 text-slate-900">{plan.title}</h3>
+            <h3 className="mb-3 text-xl font-semibold text-[] leading-5 text-slate-900">{plan.title}</h3>
         
            
           
@@ -26,7 +26,7 @@ function PricingPlans() {
             </div>
             
             
-            <p className="mt-4 leading-8 text-slate-700 tracking-wider text-[16px] font-[700] ">{plan.description}</p>
+            <p className="mt-5 leading-8 text-slate-700 tracking-wider text-[16px] font-[700]  ">{plan.description}</p>
             
         {/* Features */}
         <ul className='flex-1 mt-6 space-y-4 '>
