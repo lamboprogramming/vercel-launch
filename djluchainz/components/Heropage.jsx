@@ -17,17 +17,6 @@ const Heropage = () => {
     <>
     
     {/* Section 1 */}
-    <div className="grid grid-cols-4 gap-4 mt-8">
-    {/* Grid 1 */}
-      <div className='grid col-span-4 col-start-1 p-4 text-center'>
-        <p className='text-black mb-6 font-bold  text-[32px] md:text-[40px]  tracking-wider '>Select Event. Get Quote. Secure Date.</p>
-      </div>
-      {/* Grid 2 */}
-      <div className='hidden'>
-  
-      </div>
-    </div>
-
     <div>
       <Animate />
     </div>
