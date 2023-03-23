@@ -20,7 +20,7 @@ const ContactForm = () => {
   }
 
   return (
-      <div className="grid grid-cols-1 font-sans bg-white">
+      <div className="grid grid-cols-1 pt-8 font-sans bg-white">
   {/* Col 2 contact form */}
   <div className="container px-8 mx-auto rounded-xl">
   <section className="mb-6 text-center ">
@@ -51,10 +51,10 @@ const ContactForm = () => {
         </div>
       {/* Category */}
         <div className="mb-6 ">
-          <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category">
-          <option>Wedding</option>
+          <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category placeholder='Event Type'">
           <option>Private Event</option>
           <option>Corporate Event</option>
+          <option>Wedding</option>
           <option>Collaboration</option>
           <option>Other</option>
           
