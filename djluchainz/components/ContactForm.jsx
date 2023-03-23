@@ -48,7 +48,7 @@ const ContactForm = () => {
         </div>
       {/* Date */}
         <div className="mb-6 ">
-          <input type="date" className="w-full px-3 py-2 leading-tight text-gray-400 uppercase bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" name="date" />
+          <input type="date" placeholder='MM-DD-YYYY' className="w-full px-3 py-2 leading-tight text-gray-400 uppercase bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" name="date" />
         </div>
       {/* Category */}
         <div className="mb-6 ">
