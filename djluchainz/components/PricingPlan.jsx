@@ -8,7 +8,7 @@ function PricingPlans() {
 
    
     <div>
-    <div className="grid gap-12 px-4 py-12 mx-auto bg-slate-50 md:py-20 lg:grid-cols-3 lg:gap-8 max-w-7xl sm:px-6 lg:px-8">
+    <div className="grid gap-12 px-4 py-8 mx-auto bg-white md:py-20 lg:grid-cols-3 lg:gap-8 max-w-7xl sm:px-6 lg:px-8">
       {pricingplans.map((plan) => (
         <div 
           key={plan.title}
@@ -27,7 +27,7 @@ function PricingPlans() {
             
             
         {/* Features */}
-        <ul className='flex-1 mt-6 space-y-6 text-lg '>
+        <ul className='flex-1 mt-4 space-y-3 text-lg '>
           {plan.features.map((feature) => (
             <li key={feature} className='flex text-slate-700 '>
             <svg 

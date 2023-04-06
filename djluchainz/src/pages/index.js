@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
    
-    <div className="bg-slate-200">
+    <div className="bg-slate-50">
         <Navbar />
         <Banner />
         <Heropage />
