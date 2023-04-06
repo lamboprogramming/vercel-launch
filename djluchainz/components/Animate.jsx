@@ -8,8 +8,8 @@ const Animate = () => {
       <h2 className='text-3xl font-extrabold text-black sm:text-5xl sm:leading-tight sm:tracking-tight'>
         Pricing plans for clients and collaborators
       </h2>
-      <p className='max-w-3xl pt-8 text-lg text-slate-500'>
-         Prices shown are starting rates and are subject to change depending upon travel, location, event capacity, or number of patrons.
+      <p className='max-w-3xl pt-4 pb-4 text-lg text-slate-500'>
+         Rates below and are subject to change upon travel, location, event capacity, or number of patrons.
       </p>
      </div> 
      <PricingPlan />

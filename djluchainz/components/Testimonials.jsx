@@ -9,7 +9,7 @@ import suite from '../public/images/msz.png'
 
 const Testimonials = () => {
     return (
-      <div className='w-full font-sans bg-gray-900'>
+      <div className='w-full font-sans bg-slate-50'>
       
       {/* Testimonials Section */}
       <div className="w-full px-5 py-12 border-t border-b border-gray-200 md:py-20">
