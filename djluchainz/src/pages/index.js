@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Navbar from '../../components/Navbar'
 import Heropage from '../../components/Heropage'
 import Banner from '../../components/Banner'
+import Imgbanner from 'components/Imgbanner'
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Navbar />
         <Banner />
         <Heropage />
+        <Imgbanner />
         <Footer />
     </div>
   )
