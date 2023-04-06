@@ -9,13 +9,13 @@ import suite from '../public/images/msz.png'
 
 const Testimonials = () => {
     return (
-      <div className='w-full bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500'>
+      <div className='w-full font-sans bg-gray-900'>
       
       {/* Testimonials Section */}
-      <div className="w-full px-5 py-12 border-t border-b border-gray-200 black md:py-20">
+      <div className="w-full px-5 py-12 border-t border-b border-gray-200 md:py-20">
           <div className="w-full max-w-6xl mx-auto ">
             
-              <div className="items-start -mx-3 md:flex">
+              <div className="items-start -mx-3 capitalize md:flex">
                   <div className="px-3 md:w-1/3">
                   
                     {/* Card */}
@@ -29,7 +29,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md"><span className="mr-1 italic font-bold leading-none text-md black"></span> When the kids hear DJ Sensei is here, they are about to go crazy!! <span className="ml-1 text-lg italic font-bold leading-none black"></span></p>
+                              <p className="text-xl leading-10">The kids start to go wild when they know a party is coming up and the dj is going to be in town ! </p>
                           </div>
                       </div>
                     {/* Card */}
@@ -43,7 +43,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md"> I forget that we are here working out because it feels like a party - I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
+                              <p className="text-xl leading-10"> I never thought working out and music went together but this feels like a kickboxing party - I get so hyped up. Whoever had an idea for a DJ at the gym is a genius </p>
                           </div>
                       </div>
                   </div>
@@ -59,7 +59,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md"> I was supposed to leave hours ago but every song had me dancing my way towards the exit and turning around. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
+                              <p className="text-xl leading-10"> I was supposed to leave hours ago but every song has me in a chokehold. Please tell me you have business card and you will be free this summer because I need you for all of my parties 😩</p>
                           </div>
                       </div>
                       {/* Card */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-black text-md xl "> You and your brother play the perfect music, I can tell you have been doing this for awhile. You obviously have a different ear for music </p>
+                              <p className="text-xl leading-10 text-black xl ">  Clearly you have been doing this for awhile, right? Because you have what some would call an old soul & a really good ear for music </p>
                           </div>
                       </div>
                   </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md">Pleasure to have you, you are welcomed to come back anytime</p>
+                              <p className="text-xl leading-10">Pleasure to have you, you know we will have you back anytime !</p>
                           </div>
                       </div>
                     {/* Card */}
@@ -104,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="leading-8 text-md">We appreciate you, You always know exactly what to play</p>
+                              <p className="text-xl leading-10">We appreciate you. We definitely called the right man for the job because the freshman from two years ago are still talking about their block party orientation </p>
                           </div>
                       </div>
                   </div>

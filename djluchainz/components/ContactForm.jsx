@@ -23,7 +23,7 @@ const ContactForm = () => {
   return (
       <div className="grid grid-cols-1 pt-8 font-sans bg-white">
   {/* Col 2 contact form */}
-  <div className="container px-8 mx-auto rounded-xl">
+  <div className="container px-8 mx-auto ">
   <section className="mb-6 text-center ">
     <div className="max-w-md px-3 py-6 mx-auto shadow-xl lg:px-6 ">
       {/* Form Details Start */}
