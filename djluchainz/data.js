@@ -7,7 +7,7 @@ export const pricingplans = [
     description: 'Residential, Club, Lounge, Restaurant, Karaoke, Birthday',
     features: [
       'Live DJ, variety of music genres, Over a decade of experience',
-      'State-of-the-art sound system, speakers, amplifiers, sub-woofers, & microphones.','Bartending, lighting, photography & videography packages available at an additional rate.'
+      'State-of-the-art sound system: speakers, amplifiers, sub-woofers, & microphones.','Bartending, lighting, photography & videography packages available at an additional rate.'
     ],
     cta: 'Request a Quote'
   },
@@ -19,7 +19,7 @@ export const pricingplans = [
     description: 'Business, School, Corporation, Franchise, Retail Store',
     features: [
       'Live DJ, variety of music genres, Over a decade of experience'
-      ,'State-of-the-art sound system, speakers, amplifiers, sub-woofers, & microphones.', 'coordinate timeline of events, introductions, guest speakers, & performances.','Bartending, lighting, photography & videography packages available at an additional rate.'
+      ,'State-of-the-art sound system: speakers, amplifiers, sub-woofers, & microphones.', 'coordinate timeline of events, introductions, guest speakers, & performances.','Bartending, lighting, photography & videography packages available at an additional rate.'
     ],
     cta: 'Request a Quote'
   },
@@ -31,7 +31,7 @@ export const pricingplans = [
     description: 'Proposal, Ceremony, Reception, After Party',
     features: [
       'Live DJ, variety of music genres, Over a decade of experience',
-      'State-of-the-art sound system, speakers, amplifiers, sub-woofers, microphones.','Bartending, lighting, photography & videography packages available at an additional rate.'
+      'State-of-the-art sound system: speakers, amplifiers, sub-woofers, microphones.','Bartending, lighting, photography & videography packages available at an additional rate.'
     ],
     cta: 'Request a Quote'
   }
