@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import bg from '../public/images/bg1.jpeg'
-import twin from '../public/images/twindj.png'
+import img from '../public/images/ludj.jpeg'
 
 import Social from './Social'
 import hall12 from '../public/images/hall12.jpg'
@@ -20,6 +20,7 @@ const Heropage = () => {
     {/* Section 1 */}
     <div>
       <Animate />
+      <Image src={img} alt="/" />
       <Testimonials />
     </div>
 

@@ -27,9 +27,9 @@ function PricingPlans() {
             
             
         {/* Features */}
-        <ul className='flex-1 mt-6 space-y-4 '>
+        <ul className='flex-1 mt-6 space-y-6 text-lg '>
           {plan.features.map((feature) => (
-            <li key={feature} className='flex text-sm leading-6 text-slate-700 '>
+            <li key={feature} className='flex text-slate-700 '>
             <svg 
               className='w-5 h-5 text-cyan-500 shrink-0'
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function PricingPlans() {
               fill="currentColor" 
               d="M40.6 12.1L17 35.7 7.4 26.1 4.6 29 17 41.3 43.4 14.9z"/></svg>
             
-            <span className="ml-3 text-[16px] tracking-wider font-sans font-[500] capitalize "> {feature}</span>
+            <span className="ml-3  tracking-wider font-sans font-[500] capitalize "> {feature}</span>
            </li>
           ))}
         </ul>

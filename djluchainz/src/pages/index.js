@@ -12,6 +12,7 @@ import Banner from '../../components/Banner'
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 
