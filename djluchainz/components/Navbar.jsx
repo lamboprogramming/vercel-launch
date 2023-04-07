@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full font-sans font-[600] bg-slate-100 shadow ">
+    <nav className="w-full font-sans font-[600] bg-slate-100">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl sm:items-center sm:flex md:px-8">
         <div>
         

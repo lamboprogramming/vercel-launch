@@ -5,6 +5,7 @@ import ContactForm from 'components/ContactForm'
 import Footer from '../../components/Footer'
 import { FaSoundcloud, FaMixcloud }from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr'
+import Partybanner from 'components/PartyBanner'
 import Bio from 'components/Bio'
 
 
@@ -16,6 +17,7 @@ const Contact = () => {
     return (
       <div className="overflow-hidden">
       <Navbar />
+      <Partybanner />
       <Bio />
            {/* Socials */}
            <div className='bg-white'>

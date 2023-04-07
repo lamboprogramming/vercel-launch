@@ -4,9 +4,11 @@ import { Inter } from '@next/font/google'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
 import Navbar from '../../components/Navbar'
+import Partybanner from 'components/PartyBanner'
 import Heropage from '../../components/Heropage'
 import Banner from '../../components/Banner'
 import Testimonials from 'components/Testimonials'
+
 
 
 
@@ -26,6 +28,7 @@ export default function Home() {
    
     <div className="overflow-hidden bg-slate-50">
         <Navbar />
+        <Partybanner />
         <Banner />
         <Heropage />
         <Testimonials />

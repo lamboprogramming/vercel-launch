@@ -16,7 +16,7 @@ import b2 from '../../public/images/bella2.jpg'
 import b3 from '../../public/images/bella3.jpg'
 import b4 from '../../public/images/bella4.jpg'
 import Footer from '../../components/Footer'
-import Mediasounds from '../../components/Mediasounds'
+import Partybanner from '../../components/Partybanner'
 import Navbar from 'components/Navbar'
 
 
@@ -25,11 +25,11 @@ const Media = () => {
     <div className="overflow-hidden">
     {/* Components */}
       <Navbar />
-      <Mediasounds />
+      <Partybanner />
       
       {/* Video */}
       <div className='grid grid-cols-1 md:flex md:justify-center'>
-        <video src='/videos/luchainz.mp4' controls autoPlay={false} /> 
+        <video src='/videos/luchainz.mp4' controls={true} autoPlay={true} /> 
       </div>
       
     <div className='grid self-center justify-center grid-cols-1 md:gap-2 md:pb-2 md:mr-2 md:ml-2 md:pt-4 lg:grid-cols-3 sm:grid-cols-2'>

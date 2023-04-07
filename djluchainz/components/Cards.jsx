@@ -20,7 +20,7 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold ">
         {/* BUTTON TO CARRIBEAN MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="text-white lg:w-36 px-6 py-2 text-sm font-bold border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hover:border-white hidden md:block ">CARIBBEAN</button>
+        <button className="lg:w-36 px-6 py-2 text-lg font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest ">Caribbean</button>
         </Link>
         </div>
       </div>
@@ -43,7 +43,7 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* LINK TO SPANISH MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">ESPANOL</button>
+        <button className="lg:w-36 px-6 py-2 text-lg font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest">Espanol</button>
         </Link>
         </div> 
       </div>
@@ -66,7 +66,7 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* BUTTON TO HIPHOP MUSIC */}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">HIP HOP</button>
+        <button className="lg:w-36 px-6 py-2 text-lg font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest  ">HIP HOP</button>
         </Link>
         </div>
       </div>
@@ -89,7 +89,7 @@ const Cards = () => {
         <div className="flex justify-center mb-2 text-xl font-bold">
     {/* BUTTON TO POP MUSIC PAGE*/}
         <Link href="https://soundcloud.com/djluchainz">
-        <button className="lg:w-36 px-6 py-2 text-sm font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest hidden md:block  ">HOUSE</button>
+        <button className="lg:w-36 px-8 py-2 text-lg font-bold text-white border-2 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[24] mr-1 hover:rounded-3xl duration-500 tracking-widest  ">HOUSE</button>
         </Link>
         </div>
       </div>
