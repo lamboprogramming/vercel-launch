@@ -69,11 +69,6 @@ const Navbar = () => {
                     <p className="py-4 tracking-widest hover:scale-150 ">Home
                     </p>
                     </Link>
-               
-                    <Link href="/about">
-                    <p className="py-4 tracking-widest hover:scale-150 ">About
-                    </p>
-                    </Link>
                     
                     <Link href="/music">
                     <p className="py-4 tracking-widest hover:scale-150 ">Music

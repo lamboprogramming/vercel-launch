@@ -28,11 +28,11 @@ const Media = () => {
       <Mediasounds />
       
       {/* Video */}
-      <div className='grid grid-cols-1 p-6 md:flex md:justify-center '>
-        <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
+      <div className='grid grid-cols-1 pt-2 md:flex md:justify-center'>
+        <video src='/videos/luchainz.mp4' controls /> 
       </div>
       
-    <div className=' font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 pt-8 p-5 self-center justify-center mr-2 ml-2'>
+    <div className=' font-[Abel] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 pt-8  self-center justify-center mr-2 ml-2'>
      
     <div className='self-center text-center bg-black '>
       <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />
