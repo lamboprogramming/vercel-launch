@@ -13,7 +13,7 @@ function PricingPlans() {
         <div 
           key={plan.title}
           className="flex flex-col p-8 bg-white border shadow-lg border-slate-200 rounded-2xl">
-            <h3 className="mb-3 text-xl font-semibold text-[] leading-5 text-slate-900">{plan.title}</h3>
+            <h3 className="mb-3 text-xl font-semibold leading-5 text-slate-900">{plan.title}</h3>
         
            
           
@@ -29,7 +29,7 @@ function PricingPlans() {
         {/* Features */}
         <ul className='flex-1 mt-4 space-y-3 text-lg '>
           {plan.features.map((feature) => (
-            <li key={feature} className='flex text-slate-700 '>
+            <li key={feature} className='flex text-slate-900 '>
             <svg 
               className='w-5 h-5 text-cyan-500 shrink-0'
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function PricingPlans() {
               fill="currentColor" 
               d="M40.6 12.1L17 35.7 7.4 26.1 4.6 29 17 41.3 43.4 14.9z"/></svg>
             
-            <span className="ml-3  tracking-wider font-sans capitalize font-[400] text-[16px] "> {feature}</span>
+            <span className="ml-3  tracking-wider font-sans uppercase font-[600] text-[12px] "> {feature}</span>
            </li>
           ))}
         </ul>

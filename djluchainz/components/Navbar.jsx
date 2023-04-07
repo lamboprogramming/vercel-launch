@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full font-sans font-[600] bg-gray-900 shadow ">
+    <nav className="w-full font-sans font-[600] bg-slate-100 shadow ">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl sm:items-center sm:flex md:px-8">
         <div>
         
@@ -20,13 +20,13 @@ const Navbar = () => {
                 
                 <div className=" sm:hidden">
                     <button
-                        className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                        className="p-2 text-black rounded-md outline-none focus:border-gray-400 focus:border"
                         onClick={() => setNavbar(!navbar)}
                     >
                         {navbar ? (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="w-8 h-8 mt-4 text-white"
+                                className="w-8 h-8 mt-4 text-black"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
                                
@@ -40,7 +40,7 @@ const Navbar = () => {
                         ) : (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="w-8 h-8 mt-4 text-white"
+                                className="w-8 h-8 mt-4 text-black"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -64,7 +64,7 @@ const Navbar = () => {
                     navbar ? "block" : "hidden"
                 }`}
             >
-                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-slate-50 text-md sm:flex sm:space-x-10 sm:space-y-0 ">
+                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-black text-md sm:flex sm:space-x-10 sm:space-y-0 ">
                     <Link href="/">
                     <p className="py-4 tracking-widest hover:scale-150 ">Home
                     </p>

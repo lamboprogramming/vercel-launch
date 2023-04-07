@@ -6,11 +6,11 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div>
-    <footer className="items-center p-4 bg-gray-900 shadow dark:bg-gray-900">
+    <footer className="items-center p-4 shadow bg-slate-100 ">
     <div className="text-xl sm:flex sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0"> </Link> 
         
-            <Image src={logo} priority className="w-[130px] ml-3 mb-5" alt="DJ Logo" />
+            <Image src={logo} priority className="w-[150px] ml-3 mb-5" alt="DJ Logo" />
             {/* text next to logo */}
             <span className="self-center mt-5 font-semibold text-md whitespace-nowrap dark:text-white"></span>
       
