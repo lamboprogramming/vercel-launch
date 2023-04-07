@@ -4,7 +4,7 @@ import dassa from '../public/images/dassa3.jpeg'
 
 const Bio = () => {
   return (
-    <div className='bg-white '>
+    <div className='bg-slate-100 '>
   <div className="mx-auto ">
   
       {/* Twin photo */}

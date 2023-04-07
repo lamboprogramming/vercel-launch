@@ -22,7 +22,7 @@ import Navbar from 'components/Navbar'
 
 const Media = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden sm:bg-slate-100">
     {/* Components */}
       <Navbar />
       <Partybanner />
@@ -32,7 +32,7 @@ const Media = () => {
         <video src='/videos/luchainz.mp4' controls={true} autoPlay={true} /> 
       </div>
       
-    <div className='grid self-center justify-center grid-cols-1 md:gap-2 md:pb-2 md:mr-2 md:ml-2 md:pt-4 lg:grid-cols-3 sm:grid-cols-2'>
+    <div className='grid self-center justify-center grid-cols-1 md:gap-2 md:pb-2 md:mr-2 md:ml-2 md:pt-4 lg:grid-cols-4 sm:grid-cols-2'>
      
     <div className='self-center text-center bg-black '>
       <Image className='border-4 border-black md:md:rounded-md ' src={b5} alt="/" />

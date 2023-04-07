@@ -9,7 +9,7 @@ import Social from '../../components/Social'
 const Music = () => {
    
     return (
-        <div className="w-full h-full overflow-hidden bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+        <div className="overflow-hidden bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
           <Navbar />
           <Partybanner/>
           
@@ -17,7 +17,7 @@ const Music = () => {
           <div className=' lg:hidden'>
             <Social />
           </div>
-         <div className="bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+         <div className="">
             <Cards />
             <Footer />
           </div>

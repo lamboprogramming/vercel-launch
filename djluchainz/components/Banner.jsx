@@ -9,6 +9,7 @@ const Banner = () => {
   return (
       <div className="flex justify-center w-full bg-gray-900">
         <Image
+          priority
           className=""
           src={bg}
           alt=""

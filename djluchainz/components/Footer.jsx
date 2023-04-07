@@ -10,11 +10,11 @@ const Footer = () => {
     <div className="text-xl sm:flex sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0"> </Link> 
         
-            <Image src={logo} priority className="w-[150px] ml-3 mb-5" alt="DJ Logo" />
+            <Image src={logo} priority className="w-[150px] ml-3 mb-5 sm:hidden" alt="DJ Logo"  />
             {/* text next to logo */}
             <span className="self-center mt-5 font-semibold text-md whitespace-nowrap dark:text-white"></span>
       
-        <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
+        <ul className="flex flex-wrap items-center text-sm text-white sm:mb-0 dark:text-gray-400">
             <li>
                 <Link href="/" className="mr-4 hover:underline md:mr-6 ">About</Link>
             </li>

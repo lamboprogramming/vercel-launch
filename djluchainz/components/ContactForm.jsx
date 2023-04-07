@@ -21,14 +21,16 @@ const ContactForm = () => {
   }
 
   return (
-      <div className="grid grid-cols-1 pt-8 font-sans bg-white">
+      <div className="grid grid-cols-1 pt-8 font-sans bg-slate-100">
   {/* Col 2 contact form */}
+
   <div className="container px-8 mx-auto ">
   <section className="mb-6 text-center ">
-    <div className="max-w-md px-3 py-6 mx-auto shadow-xl lg:px-6 ">
+    <div className="max-w-md px-3 py-2 mx-auto bg-white shadow-2xl lg:px- ">
       {/* Form Details Start */}
       <form ref={form} className='id="contact" action="" method="post" ' onSubmit={sendEmail}>
-      <div  >
+      <div>
+      <h1 className='font-sans font-[500] text-3xl text-black text-left pb-2 sm:pb-4 pt-2 tracking-wide'>Contact Us</h1>
       {/* Name */}
         <div className="mb-6 ">
           <input type="text" className="w-full px-3 py-2 leading-tight text-gray-700 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600 " name="name"
@@ -69,7 +71,7 @@ const ContactForm = () => {
           <textarea className="w-full px-3 py-2 leading-tight text-gray-700 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="area" rows="3" placeholder="Message" name="message" ></textarea>
         </div>
         <div className="flex justify-center">
-        <button type="submit" className="items-center block px-16 py-4 mt-8 text-sm font-semibold leading-4 text-center text-white rounded-lg shadow-md bg-cyan-500 hover:bg-cyan-600">Submit</button>
+        <button type="submit" className="items-center block px-16 py-4 mt-4 text-sm font-semibold leading-4 text-center text-white rounded-lg shadow-md bg-cyan-500 hover:bg-cyan-600">Submit</button>
         </div>
         
       </div>
