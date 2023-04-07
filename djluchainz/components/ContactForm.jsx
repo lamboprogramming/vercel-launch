@@ -48,11 +48,11 @@ const ContactForm = () => {
         </div>
       {/* Date */}
         <div className="mb-6 ">
-          <input type="text" placeholder='MM-DD-YYYY' className="w-full px-3 py-4 leading-tight text-gray-400 uppercase bg-white border rounded shadow appearance-none md:py-2 focus:outline-none focus:bg-white focus:border-blue-600" name="date" />
+          <input type="text" placeholder='Date of Event' className="w-full px-3 py-4 leading-tight text-gray-400 bg-white border rounded shadow appearance-none md:py-2 focus:outline-none focus:bg-white focus:border-blue-600" name="date" />
         </div>
       {/* Category */}
         <div className="mb-6 ">
-          <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category placeholder='Event Type'">
+          <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category" placeholder="Event Type'">
           <option>Private Event</option>
           <option>Corporate Event</option>
           <option>Wedding</option>
@@ -80,14 +80,6 @@ const ContactForm = () => {
   </section>
   </div>
 
-
-  
-
-  {/* policy */}
-  <h3 className='p-4 text-lg leading-8 tracking-wider text-center text-black md:text-lg font-[800]'>
-  Questions regarding rates or collaboration email
-  djluchainz@gmail.com or use the form above and our team will get back to shortly.
-</h3>
   
   </div>
   );

@@ -5,6 +5,7 @@ import ContactForm from 'components/ContactForm'
 import Footer from '../../components/Footer'
 import { FaSoundcloud, FaMixcloud }from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr'
+import Bio from 'components/Bio'
 
 
 
@@ -15,6 +16,7 @@ const Contact = () => {
     return (
       <>
       <Navbar />
+      <Bio />
            {/* Socials */}
            <div className='bg-white'>
            <div className='flex pt-8 space-x-10 justify-evenly '>

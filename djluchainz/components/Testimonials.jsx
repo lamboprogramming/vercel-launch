@@ -90,7 +90,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; Okay we see  mr, DJ! Over there showing out.   we already ca&apos;nt wait for the next event &quot; </p>
+                              <p className="text-[16px]  leading-10">&quot; Okay I see you mr, DJ! Over here showing out. I Know who i&apos;m booking for my next party &quot; </p>
                           </div>
                       </div>
                     {/* Card */}
