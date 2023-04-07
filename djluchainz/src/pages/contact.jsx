@@ -14,7 +14,7 @@ const Contact = () => {
 
 
     return (
-      <>
+      <div className="overflow-hidden">
       <Navbar />
       <Bio />
            {/* Socials */}
@@ -48,7 +48,7 @@ const Contact = () => {
       
       <ContactForm />
       <Footer />
-      </>
+      </div>
     );
   }
 
