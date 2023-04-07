@@ -60,7 +60,6 @@ const ContactForm = () => {
           <option value="corporate">Corporate Event ($175/Hour)</option>
           <option value="private">Private Event ($100/Hour)</option>
           <option value="lessons">DJ Lessons ($75/Hour)</option>
-          <option value="collab">Collaboration</option>
           <option value="other">Other</option>
           
           </select>
