@@ -55,9 +55,10 @@ const ContactForm = () => {
       {/* Category */}
         <div className="mb-6 ">
           <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category" placeholder="Event Type'">
-          <option>Private Event</option>
-          <option>Corporate Event</option>
-          <option>Wedding</option>
+          <option>Wedding (Up to $250/Hour)</option>
+          <option>Corporate Event (Up to $175/Hour)</option>
+          <option>Private Event (Up to $100/Hour)</option>
+          <option>DJ Lessons (Up to $75/Hour)</option>
           <option>Collaboration</option>
           <option>Other</option>
           
