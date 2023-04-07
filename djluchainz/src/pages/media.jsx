@@ -16,7 +16,6 @@ import b2 from '../../public/images/bella2.jpg'
 import b3 from '../../public/images/bella3.jpg'
 import b4 from '../../public/images/bella4.jpg'
 import Footer from '../../components/Footer'
-import Partybanner from '../../components/Partybanner'
 import Navbar from 'components/Navbar'
 
 
@@ -25,7 +24,13 @@ const Media = () => {
     <div className="overflow-hidden sm:bg-slate-100">
     {/* Components */}
       <Navbar />
-      <Partybanner />
+         {/* Party Banner */}
+         <div className='p-4 bg-slate-100'>
+         <div className="w-full mx-auto font-sans text-center">
+         <p className="p-4 text-xl italic tracking-wide text-black capitalize lg:text-5xl ">PartyWithUs Entertainment Present&apos;s </p>
+         </div> 
+         </div>
+         {/* Party Banne End */}
       
       {/* Video */}
       <div className='grid grid-cols-1 md:flex md:justify-center'>

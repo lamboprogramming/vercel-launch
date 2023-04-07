@@ -13,6 +13,7 @@ const Banner = () => {
           className=""
           src={bg}
           alt=""
+          
         />
         
       </div>
