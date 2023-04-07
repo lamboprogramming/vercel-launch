@@ -29,7 +29,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10"> &quot; The kids start to go wild when they know a party is coming up and the dj is going to be here ! &quot; </p>
+                              <p className="text-[16px] leading-10"> &quot; The kids start to go wild when they know a party is coming up and the dj is going to be here &quot; </p>
                           </div>
                       </div>
                     {/* Card */}
@@ -43,7 +43,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10">&quot; I didn&apos;t think working out and music went together but this feels like a kickboxing party - I get so hyped up. Whoever had an idea for a DJ at the gym is a genius &quot; </p>
+                              <p className="text-[16px]  leading-10">&quot; I didn&apos;t think working out and music went together but this feels like a kickboxing party - I get so hyped up. Whoever had an idea for a DJ at the gym is a genius &quot; </p>
                           </div>
                       </div>
                   </div>
@@ -59,7 +59,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10">&quot; I was supposed to leave hours ago but every song has me in a chokehold. Please tell me you will be free this summer because I need you for all of my events &quot;</p>
+                              <p className="text-[16px]  leading-10">&quot; I was supposed to leave hours ago but every song has me in a chokehold. Please tell me you will be free this summer because I need you for all of my events &quot;</p>
                           </div>
                       </div>
                       {/* Card */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10 text-black xl ">  &quot; Clearly you&apos;ve been doing this for awhile, right? Because you have a really good ear for music &quot; </p>
+                              <p className="text-[16px]  leading-10 text-black xl ">  &quot; Clearly you&apos;ve been doing this for awhile, right? Because you have a really good ear for music &quot; </p>
                           </div>
                       </div>
                   </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10">&quot; Pleasure to have you, you know we will have you back anytime ! &quot; </p>
+                              <p className="text-[16px]  leading-10">&quot; Okay we see  mr, DJ! Over there showing out.   we already ca&apos;nt wait for the next event &quot; </p>
                           </div>
                       </div>
                     {/* Card */}
@@ -104,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-lg leading-10">&quot; We appreciate you. We definitely called the right man for the job because the freshman from two years ago are still talking about their block party orientation &quot; </p>
+                              <p className="text-[16px]  leading-10">&quot; We appreciate you. We definitely called the right man for the job because the freshman from two years ago are still talking about their block party orientation &quot; </p>
                           </div>
                       </div>
                   </div>
