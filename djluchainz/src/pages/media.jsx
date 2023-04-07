@@ -22,17 +22,17 @@ import Navbar from 'components/Navbar'
 
 const Media = () => {
   return (
-    <div className="bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+    <div className=" bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
     {/* Components */}
       <Navbar />
       <Mediasounds />
       
       {/* Video */}
       <div className='grid grid-cols-1 pt-2 md:flex md:justify-center'>
-        <video src='/videos/luchainz.mp4' controls /> 
+        <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
       </div>
       
-    <div className=' font-[Abel] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 pt-8  self-center justify-center mr-2 ml-2'>
+    <div className=' font-[Abel] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 pt-4  self-center justify-center mr-2 ml-2 pb-2'>
      
     <div className='self-center text-center bg-black '>
       <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />
