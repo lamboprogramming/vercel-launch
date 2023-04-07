@@ -15,6 +15,7 @@ import Testimonials from 'components/Testimonials'
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -29,7 +30,6 @@ export default function Home() {
         <Heropage />
         <Testimonials />
         <Footer />
-        
     </div>
   )
 }
