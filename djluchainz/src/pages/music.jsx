@@ -8,7 +8,7 @@ import Social from '../../components/Social'
 const Music = () => {
    
     return (
-      <div className="overflow-auto ">
+      <div className="overflow-scroll ">
       <div className="bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
       <Navbar />
       <Musicbanner  />
