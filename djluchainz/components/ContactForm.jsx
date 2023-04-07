@@ -21,11 +21,11 @@ const ContactForm = () => {
   }
 
   return (
-      <div className="grid grid-cols-1 pt-4 font-sans bg-slate-100">
+      <div className="grid grid-cols-1 font-sans bg-slate-100">
   {/* Col 2 contact form */}
 
-  <div className="container px-2 mx-auto ">
-  <section className="mb-6 text-center ">
+  <div className="container mx-auto ">
+  <section className="text-center ">
     <div className="max-w-md px-3 py-2 mx-auto bg-white shadow-2xl ">
       {/* Form Details Start */}
       <form ref={form} className='id="contact" action="" method="post" ' onSubmit={sendEmail}>
