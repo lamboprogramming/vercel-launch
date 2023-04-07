@@ -17,16 +17,20 @@ const Contact = () => {
       <div className="overflow-hidden">
       <Navbar />
          {/* Party Banner */}
-         <div className='p-4 bg-slate-100'>
+         <div className=' bg-slate-100'>
          <div className="w-full mx-auto font-sans text-center">
-         <p className="p-4 text-xl italic tracking-wide text-black capitalize lg:text-5xl ">PartyWithUs Entertainment Present&apos;s </p>
+         <div className='p-2 bg-slate-100'>
+         <div className="w-full mx-auto font-sans text-center ">
+         <p className="text-2xl italic tracking-wider text-black capitalize lg:text-5xl font-[400]">PartyWithUs Entertainment</p>
          </div> 
          </div>
-         {/* Party Banne End */}
+         </div> 
+         </div>
+         {/* Party Banner End */}
       <Bio />
            {/* Socials */}
-           <div className='bg-slate-100'>
-           <div className='flex p-2 space-x-10 justify-evenly'>
+           
+           <div className='flex p-2 space-x-10 justify-evenly bg-slate-100'>
            <div>
            <a
            href="https://soundcloud.com/djluchainz">
@@ -51,7 +55,7 @@ const Contact = () => {
          <h3 className="mt-3 font-extrabold tracking-widest text-black text-md nav-links"></h3>
            </div>
            </div>
-           </div>
+           
       
       <ContactForm />
       <Footer />

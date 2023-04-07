@@ -13,7 +13,11 @@ const Music = () => {
              {/* Party Banner */}
         <div className='p-4 bg-slate-100'>
         <div className="w-full mx-auto font-sans text-center">
-        <p className="p-4 text-xl italic tracking-wide text-black capitalize lg:text-5xl ">PartyWithUs Entertainment Present&apos;s </p>
+        <div className='p-2 bg-slate-100'>
+        <div className="w-full mx-auto font-sans text-center ">
+        <p className="text-2xl italic tracking-wider text-black capitalize lg:text-5xl font-[400]">PartyWithUs Entertainment</p>
+        </div> 
+        </div>
         </div> 
         </div>
         {/* Party Banne End */}

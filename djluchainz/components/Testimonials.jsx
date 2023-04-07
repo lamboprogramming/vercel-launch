@@ -29,7 +29,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px] leading-10"> &quot; The kids go wild when they know a party is coming up and the dj is going to be here &quot; </p>
+                              <p className="text-[16px] leading-7"> &quot; The kids go wild when they know a party is coming up and the dj is going to be here &quot; </p>
                           </div>
                       </div>
                     {/* Card */}
@@ -43,7 +43,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; Working out and live music go so well together - I get so hyped up. This idea was genius &quot; </p>
+                              <p className="text-[16px]  leading-7">&quot; Working out and live music go so well together - I get so hyped up. This idea was genius &quot; </p>
                           </div>
                       </div>
                   </div>
@@ -59,7 +59,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; I was supposed to leave hours ago but every song has me in a chokehold. Please tell me you&apos;ll be free this summer because I need you for all of my events &quot;</p>
+                              <p className="text-[16px]  leading-7">&quot; I was supposed to leave hours ago but every song has me in a chokehold. Please tell me you&apos;ll be free this summer because I need you for all of my events &quot;</p>
                           </div>
                       </div>
                       {/* Card */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10 text-black xl ">  &quot; Clearly you&apos;ve been doing this for awhile, right? Because you have a really good ear for music &quot; </p>
+                              <p className="text-[16px]  leading-7 text-black xl ">  &quot; Clearly you&apos;ve been doing this for awhile, right? Because you have a really good ear for music &quot; </p>
                           </div>
                       </div>
                   </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; Okay I see you mr, DJ! Over here showing out. I Know who i&apos;m booking for my next party &quot; </p>
+                              <p className="text-[16px]  leading-7">&quot; Okay I see you mr, DJ! Over here showing out. I Know who i&apos;m booking for my next party &quot; </p>
                           </div>
                       </div>
                     {/* Card */}
@@ -104,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; We appreciate you. We definitely called the right man for the job,  the school can&apos;t get enough of you &quot; </p>
+                              <p className="text-[16px]  leading-7">&quot; We appreciate you. We definitely called the right man for the job,  the school can&apos;t get enough of you &quot; </p>
                           </div>
                       </div>
                   </div>

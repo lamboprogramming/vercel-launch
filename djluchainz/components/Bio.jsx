@@ -14,13 +14,13 @@ const Bio = () => {
       </div>
      </div>
  
-    <section className="p-4 text-center">
+    <section className="p-2 text-center ">
     
      {/* Col 1 Bio */}
-      <div className='grid grid-cols-1 font-sans tracking-wider text-center text-black '>
+      <div className='flex font-sans tracking-wide text-center text-black md:justify-center '>
 
-      <div className="font-[500] text-2xl leading-10">
-      <p className='mb-4'>LuChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry traveling the country and playing at some of the most exclusive venues.</p>
+      <div className="font-[300] text-2xl leading-10">
+      <p className='m-2'>LuChainz is a highly experienced and sought-after DJ with over a decade of experience in the music industry traveling the country and playing at some of the most exclusive venues.</p>
       </div> 
       </div>
       

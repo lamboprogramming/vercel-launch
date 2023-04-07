@@ -21,7 +21,7 @@ const ContactForm = () => {
   }
 
   return (
-      <div className="grid grid-cols-1 pt-8 font-sans bg-slate-100">
+      <div className="grid grid-cols-1 pt-4 font-sans bg-slate-100">
   {/* Col 2 contact form */}
 
   <div className="container px-8 mx-auto ">
