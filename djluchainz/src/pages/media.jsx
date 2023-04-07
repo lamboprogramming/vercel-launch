@@ -22,14 +22,14 @@ import Navbar from 'components/Navbar'
 
 const Media = () => {
   return (
-    <div className="overflow-hidden  bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+    <div className="overflow-hidden bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
     {/* Components */}
       <Navbar />
       <Mediasounds />
       
       {/* Video */}
       <div className='grid grid-cols-1 md:flex md:justify-center'>
-        <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
+        <video src='/videos/luchainz.mp4' controls autoPlay={false} /> 
       </div>
       
     <div className='grid self-center justify-center grid-cols-1 md:gap-2 md:pb-2 md:mr-2 md:ml-2 md:pt-4 lg:grid-cols-3 sm:grid-cols-2'>

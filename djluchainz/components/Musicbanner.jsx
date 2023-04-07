@@ -2,7 +2,7 @@
 
 const Sounds = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
     <div className="w-full mx-auto text-center ">
     <h1 className="p-4 text-4xl italic leading-10 tracking-widest text-yellow-500 capitalize lg:text-5xl ">PartyWithUs Entertainment  </h1>
     <div className="text-center ">
