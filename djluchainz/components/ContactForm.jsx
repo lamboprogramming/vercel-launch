@@ -54,13 +54,14 @@ const ContactForm = () => {
         </div>
       {/* Category */}
         <div className="mb-6 ">
-          <select type="category" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category" placeholder="Event Type'">
-          <option>Wedding (Up to $250/Hour)</option>
-          <option>Corporate Event (Up to $175/Hour)</option>
-          <option>Private Event (Up to $100/Hour)</option>
-          <option>DJ Lessons (Up to $75/Hour)</option>
-          <option>Collaboration</option>
-          <option>Other</option>
+          <select type="checkbox" className="w-full px-3 py-2 leading-tight text-gray-400 bg-white border rounded shadow appearance-none focus:outline-none focus:bg-white focus:border-blue-600" id="category" name="category" placeholder="Event Type'">
+          <option value="">--Please choose an option--</option>
+          <option value="wedding">Wedding ($250/Hour)</option>
+          <option value="corporate">Corporate Event ($175/Hour)</option>
+          <option value="private">Private Event ($100/Hour)</option>
+          <option value="lessons">DJ Lessons ($75/Hour)</option>
+          <option value="collab">Collaboration</option>
+          <option value="other">Other</option>
           
           </select>
           
