@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Cards = () => {
   return (
     <div className="max-w-full m-10 text-white p-15 md:p-10 md:m-5 h-min rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
-    <div className="grid gap-10 font-sans md:grid-cols-2 md:p-10 lg:grid-cols-4 ">
+    <div className="grid gap-8 font-sans md:grid-cols-2 md:p-10 lg:grid-cols-4 ">
 
     {/* Card #1 Carribean*/}
       <div className="overflow-hidden rounded-t-full shadow-2xl">

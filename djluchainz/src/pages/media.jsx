@@ -28,7 +28,7 @@ const Media = () => {
       <Mediasounds />
       
       {/* Video */}
-      <div className='grid grid-cols-1 pt-2 md:flex md:justify-center'>
+      <div className='grid grid-cols-1 md:flex md:justify-center'>
         <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
       </div>
       

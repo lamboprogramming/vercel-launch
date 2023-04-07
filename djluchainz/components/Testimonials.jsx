@@ -104,7 +104,7 @@ const Testimonials = () => {
                               </div>
                           </div>
                           <div className="w-full">
-                              <p className="text-[16px]  leading-10">&quot; We appreciate you. We definitely called the right man for the job because the freshman from two years ago are still talking about their block party orientation &quot; </p>
+                              <p className="text-[16px]  leading-10">&quot; We appreciate you. We definitely called the right man for the job,  the school can&apos;t get enough of you &quot; </p>
                           </div>
                       </div>
                   </div>
