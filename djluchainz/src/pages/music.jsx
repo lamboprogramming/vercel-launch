@@ -27,6 +27,7 @@ const Music = () => {
             <Footer />
           </div>
         </div>
+        
     );
    
 }
