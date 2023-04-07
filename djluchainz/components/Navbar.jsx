@@ -8,17 +8,17 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
     <nav className="w-full font-sans font-[300] bg-gray-900 shadow">
-    <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <div className="justify-between px-4 mx-auto lg:max-w-7xl sm:items-center sm:flex md:px-8">
         <div>
         
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-3 sm:py-5 sm:block">
            
                 <Link href="/">
                     <Image 
                     className="hover:scale-125" src={logo} alt="logo" width="129"  />
                 </Link>
                 
-                <div className=" md:hidden">
+                <div className=" sm:hidden">
                     <button
                         className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
                         onClick={() => setNavbar(!navbar)}
@@ -60,11 +60,11 @@ const Navbar = () => {
         </div>
         <div>
             <div
-                className={`flex-1 text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 nav-links capitalize text-md  ${
+                className={`flex-1 text-center justify-self-center pb-3 mt-8 sm:block sm:pb-0 sm:mt-0 nav-links capitalize text-md  ${
                     navbar ? "block" : "hidden"
                 }`}
             >
-                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-white text-md md:flex md:space-x-10 md:space-y-0 ">
+                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-white text-md sm:flex sm:space-x-10 sm:space-y-0 ">
                     <Link href="/">
                     <p className="py-4 tracking-widest hover:scale-150 ">Home
                     </p>

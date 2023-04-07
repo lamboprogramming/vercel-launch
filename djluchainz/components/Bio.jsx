@@ -9,8 +9,8 @@ const Bio = () => {
   
       {/* Twin photo */}
       <div className='flex justify-center w-full h-full'>
-      <div className=''>
-        <Image src={dassa} alt="/" priority className='pt-4 pl-4 pr-4 '/>
+      <div className='overflow-hidden'>
+        <Image src={dassa} alt="/" priority className=''/>
       </div>
      </div>
  

@@ -3,10 +3,12 @@ import img from '../public/images/ludj.jpeg'
 
 const Imgbanner = () => {
   return (
-   
-    <div className="sm:hidden">
-      <Image src={img} alt="/" className="w-full h-full overflow-hidden " />
+   <>
+    <div className="flex justify-center sm:hidden">
+      <Image src={img} alt="/" className="" />
     </div>
+    
+    </>
   );
 }
 

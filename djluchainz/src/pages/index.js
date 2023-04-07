@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
    
-    <div className="bg-slate-50">
+    <div className="overflow-hidden bg-slate-50">
         <Navbar />
         <Banner />
         <Heropage />

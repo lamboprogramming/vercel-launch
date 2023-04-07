@@ -32,70 +32,70 @@ const Media = () => {
         <video src='/videos/luchainz.mp4' controls autoPlay={true} /> 
       </div>
       
-    <div className=' font-[Abel] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 pt-4  self-center justify-center mr-2 ml-2 pb-2'>
+    <div className='grid self-center justify-center grid-cols-1 md:gap-2 md:pb-2 md:mr-2 md:ml-2 md:pt-4 lg:grid-cols-3 sm:grid-cols-2'>
      
     <div className='self-center text-center bg-black '>
-      <Image className='border-4 border-black rounded-md ' src={b5} alt="/" />
+      <Image className='border-4 border-black md:md:rounded-md ' src={b5} alt="/" />
     </div>
 
     <div className='self-center text-center bg-black'>
-    <Image className='border-4 border-black rounded-md' src={b2} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={b2} alt="/" />
     </div>
 
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={b3} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={b3} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={b4} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={b4} alt="/" />
     </div>
     
     
     <div className='self-center text-center bg-black'>
-    <Image className='border-4 border-black rounded-md' src={hall10} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall10} alt="/" />
     </div>
     
     <div className='self-center text-center bg-black'>
-    <Image className='border-4 border-black rounded-md' src={hall2} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall2} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall3} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall3} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall4} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall4} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall5} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall5} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall6} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall6} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall7} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall7} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall8} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall8} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall9} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall9} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image  className='border-4 border-black rounded-md'  src={hall10} alt="/" />
+    <Image  className='border-4 border-black md:rounded-md'  src={hall10} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall11} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall11} alt="/" />
     </div>
     <div className='self-center text-center'>
-    <Image className='border-4 border-black rounded-md' src={hall12} alt="/" />
+    <Image className='border-4 border-black md:rounded-md' src={hall12} alt="/" />
     </div>
 
     </div>
