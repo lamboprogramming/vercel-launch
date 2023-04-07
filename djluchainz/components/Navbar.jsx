@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full font-sans font-[300] bg-gray-900 shadow">
+    <nav className="w-full font-sans font-[600] bg-gray-900 shadow ">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl sm:items-center sm:flex md:px-8">
         <div>
         
@@ -60,11 +60,11 @@ const Navbar = () => {
         </div>
         <div>
             <div
-                className={`flex-1 text-center justify-self-center pb-3 mt-8 sm:block sm:pb-0 sm:mt-0 nav-links capitalize text-md  ${
+                className={`flex-1 text-center justify-self-center pb-3 mt-8 sm:block sm:pb-0 sm:mt-0 nav-links capitalize text-xl   ${
                     navbar ? "block" : "hidden"
                 }`}
             >
-                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-white text-md sm:flex sm:space-x-10 sm:space-y-0 ">
+                <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-10 text-slate-50 text-md sm:flex sm:space-x-10 sm:space-y-0 ">
                     <Link href="/">
                     <p className="py-4 tracking-widest hover:scale-150 ">Home
                     </p>

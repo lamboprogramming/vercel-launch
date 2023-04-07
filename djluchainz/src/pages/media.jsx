@@ -22,7 +22,7 @@ import Navbar from 'components/Navbar'
 
 const Media = () => {
   return (
-    <div className="overflow-hidden bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
+    <div className="overflow-hidden">
     {/* Components */}
       <Navbar />
       <Mediasounds />
