@@ -12,9 +12,8 @@ const Footer = () => {
         
             <Image src={logo} priority className="w-[150px] ml-3 mb-5 sm:hidden" alt="DJ Logo"  />
             {/* text next to logo */}
-            <span className="self-center mt-5 font-semibold text-md whitespace-nowrap dark:text-white"></span>
-      
-        <ul className="flex flex-wrap items-center text-sm text-white sm:mb-0 dark:text-gray-400">
+           
+        <ul className="flex flex-wrap items-center text-sm text-black sm:mb-0 ">
             <li>
                 <Link href="/" className="mr-4 hover:underline md:mr-6 ">About</Link>
             </li>
@@ -30,7 +29,7 @@ const Footer = () => {
         </ul>
     </div>
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span className="block text-sm text-white sm:text-center dark:text-gray-400">© <a className="" href={logo} >Gillespie Holding Group™</a> All Rights Reserved.
+    <span className="block text-sm text-black sm:text-center ">© <a className="" href={logo} >Gillespie Holding Group™</a> All Rights Reserved.
     </span>
 </footer>
     </div>
